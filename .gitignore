@@ -1,0 +1,28 @@
+# Environment
+.env
+.env.local
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Call artifacts (local scratch)
+calls/
+scratch/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
