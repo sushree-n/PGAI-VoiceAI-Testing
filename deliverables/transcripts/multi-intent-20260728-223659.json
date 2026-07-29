@@ -1,0 +1,2042 @@
+{
+  "job_id": "AJ_4sQWrmCnjTvN",
+  "room_id": "RM_DZdFjqvYxyj6",
+  "room": "multi-intent-20260728-223659",
+  "events": [
+    {
+      "type": "agent_state_changed",
+      "old_state": "initializing",
+      "new_state": "listening",
+      "created_at": 1785292622.736552
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785292625.639841
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292625.830913
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This call may be recorded.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292626.834867
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292627.8541
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "may be recorded for quality and",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292627.854485
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "may be recorded for quality and training purposes.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292628.836896
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "may be recorded for quality and training purposes.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292628.9378471
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "But I",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292629.9526432
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292631.88739
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785292631.926479
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_9d21bfa61f6c",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "This may be recorded for quality and training purposes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9990234499999999,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292625.639227,
+          "stopped_speaking_at": 1785292631.33316,
+          "transcription_delay": 0,
+          "end_of_turn_delay": 0.5929710865020752,
+          "on_user_turn_completed_delay": 2.874992787837982e-06
+        },
+        "created_at": 1785292631.926358,
+        "hash": null
+      },
+      "created_at": 1785292632.077706
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785292632.077774
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785292632.1853461
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "listening",
+      "created_at": 1785292632.637335
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "For calling PIVOT",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292633.132834
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "For calling Pivot Point",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292634.173782
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "For calling Pivot Point Orthopedics.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292634.7389781
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Part of",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292635.797218
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Part of Pretty Good",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292636.69412
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Part of Pretty Good AI.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292637.2496681
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "How may I help you",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292638.32035
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "How may I help you today?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292638.7047338
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292639.035624
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785292639.050962
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_ff99a45b6517",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "For calling Pivot Point Orthopedics. Part of Pretty Good AI. How may I help you today?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.94498698,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292632.184948,
+          "stopped_speaking_at": 1785292638.487248,
+          "transcription_delay": 0.21828293800354004,
+          "end_of_turn_delay": 0.5634341239929199,
+          "on_user_turn_completed_delay": 3.0410010367631912e-06
+        },
+        "created_at": 1785292639.050863,
+        "hash": null
+      },
+      "created_at": 1785292639.054982
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785292639.054996
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785292639.899242
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_424ffa392ab6",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hey, sorry to bother you, I know you guys are probably busy \u2014 I'm calling to book an appointment for some shoulder pain I've been having, and also I need to get my naproxen prescription refilled, and actually I also wanted to check if you accept Blue Shield of California insurance, I just switched over recently."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292639.898726,
+          "stopped_speaking_at": 1785292656.489376,
+          "llm_node_ttft": 0.3193600832019001,
+          "tts_node_ttfb": 0.5271059169899672,
+          "e2e_latency": 1.411478042602539
+        },
+        "created_at": 1785292639.0553432,
+        "hash": null
+      },
+      "created_at": 1785292656.4898849
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292656.490259
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785292661.5360441
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Can help with that.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292662.290635
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can help with that.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292662.8093388
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I have your full",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292663.6992042
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I have your full name and date of birth?",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292664.6924238
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I have your full name and date of birth?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292664.745428
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292665.085613
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785292665.130704
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_fbb2df339e54",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I can help with that. I have your full name and date of birth?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99951172,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292661.535464,
+          "stopped_speaking_at": 1785292664.535985,
+          "transcription_delay": 0.21007609367370605,
+          "end_of_turn_delay": 0.5944778919219971,
+          "on_user_turn_completed_delay": 2.5830231606960297e-06
+        },
+        "created_at": 1785292665.130626,
+        "hash": null
+      },
+      "created_at": 1785292665.136491
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785292665.1365051
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785292665.6510022
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_6028e54f6786",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Yeah it's Marcus Nguyen, date of birth is November three, nineteen eighty-six."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292665.649718,
+          "stopped_speaking_at": 1785292669.675374,
+          "llm_node_ttft": 0.2722450001165271,
+          "tts_node_ttfb": 0.24410358304157853,
+          "e2e_latency": 1.1137330532073975
+        },
+        "created_at": 1785292665.137194,
+        "hash": null
+      },
+      "created_at": 1785292669.6755269
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292669.675654
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785292672.083543
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Could you",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292672.280965
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Could you please provide your full",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292673.3058949
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Could you please provide your full name including",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292674.357316
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Could you please provide your full name including your last name?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292675.410274
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292675.635562
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785292675.6642401
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_eb113df30b5d",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Could you please provide your full name including your last name?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292672.083234,
+          "stopped_speaking_at": 1785292675.1355,
+          "transcription_delay": 0.27510619163513184,
+          "end_of_turn_delay": 0.5285429954528809,
+          "on_user_turn_completed_delay": 1.3748649507761002e-06
+        },
+        "created_at": 1785292675.664182,
+        "hash": null
+      },
+      "created_at": 1785292675.668121
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785292675.668133
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785292677.303076
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_26125a8abc87",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "That's my full name \u2014 Marcus Nguyen, first name Marcus, last name Nguyen, N G U Y E N."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292677.301911,
+          "stopped_speaking_at": 1785292683.601419,
+          "llm_node_ttft": 1.3132796250283718,
+          "tts_node_ttfb": 0.32231654203496873,
+          "e2e_latency": 2.1664111614227295
+        },
+        "created_at": 1785292675.668524,
+        "hash": null
+      },
+      "created_at": 1785292683.6016178
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292683.601758
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785292690.28389
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I have your name",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292690.833138
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I have your name as Marcus New",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292691.838971
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I have your name as Marcus Nguyen.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292692.809933
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Your date of birth",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292693.798476
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Your date of birth as November",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292694.75398
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Your date of birth as November third",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292695.371339
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "nineteen",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292696.296117
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "nineteen eighty six.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292697.254272
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292697.43591
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785292697.46485
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_32aa3a5f0a45",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I have your name as Marcus Nguyen. Your date of birth as November third nineteen eighty six."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9986979133333334,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292690.283701,
+          "stopped_speaking_at": 1785292696.885244,
+          "transcription_delay": 0.36960816383361816,
+          "end_of_turn_delay": 0.5793101787567139,
+          "on_user_turn_completed_delay": 8.040806278586388e-06
+        },
+        "created_at": 1785292697.464745,
+        "hash": null
+      },
+      "created_at": 1785292697.469238
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785292697.4692512
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785292697.633801
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "listening",
+      "created_at": 1785292698.08563
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Is that correct?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292698.2587001
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292698.535237
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785292698.5618172
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_ce6a25730ef6",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Is that correct?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292697.633601,
+          "stopped_speaking_at": 1785292697.982295,
+          "transcription_delay": 0.27710485458374023,
+          "end_of_turn_delay": 0.5793569087982178,
+          "on_user_turn_completed_delay": 1.0421499609947205e-06
+        },
+        "created_at": 1785292698.561772,
+        "hash": null
+      },
+      "created_at": 1785292698.566167
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785292698.566182
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785292700.401988
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_9c9fee73995a",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Yep, that's all correct."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292700.401588,
+          "stopped_speaking_at": 1785292701.449152,
+          "llm_node_ttft": 1.5663572079502046,
+          "tts_node_ttfb": 0.2723714590538293,
+          "e2e_latency": 2.41929292678833
+        },
+        "created_at": 1785292698.566528,
+        "hash": null
+      },
+      "created_at": 1785292701.449266
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292701.4493482
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292706.079419
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785292706.0857081
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to use your phone number",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292707.079829
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to use your phone number to look up your record?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292708.087878
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If so,",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292709.104321
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If so, please provide the number",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292710.105908
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If so, please provide the number you have on file with",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292711.177902
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If so, please provide the number you have on file with us.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292711.316194
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If you're not sure",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292712.3015559
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If you're not sure,",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292712.79869
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "just let me know.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292713.801404
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "just let me know.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292714.110262
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292714.385833
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785292714.4134378
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_6a1e99b742d4",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, just let me know."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292706.085254,
+          "stopped_speaking_at": 1785292713.885374,
+          "transcription_delay": 0.22532296180725098,
+          "end_of_turn_delay": 0.5279018878936768,
+          "on_user_turn_completed_delay": 1.0421499609947205e-06
+        },
+        "created_at": 1785292714.4133902,
+        "hash": null
+      },
+      "created_at": 1785292714.4173062
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785292714.4173162
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785292716.014027
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_315344440eb2",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Sure, it's four zero eight, five five five, zero one seven six."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292716.0129468,
+          "stopped_speaking_at": 1785292719.279953,
+          "llm_node_ttft": 1.4050679169595242,
+          "tts_node_ttfb": 0.1929570829961449,
+          "e2e_latency": 2.127572774887085
+        },
+        "created_at": 1785292714.4178188,
+        "hash": null
+      },
+      "created_at": 1785292719.280025
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292719.280073
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785292726.93662
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I have",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292726.9877539
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I have your phone number as",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292727.9896069
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I have your phone number as",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292728.451649
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "four zero eight",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292729.4927301
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "four zero eight",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292729.748945
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "five five",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292730.738265
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "five five five",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292731.450142
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292731.686419
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785292732.3853178
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "zero one seven",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292733.3865678
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "zero one seven six, and your date",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292734.385323
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "zero one seven six, and your date of birth as",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292735.414891
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "zero one seven six, and your date of birth as",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292735.600939
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "November third",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292736.628223
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "November third nineteen eighty",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292737.553761
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "November third nineteen eighty six.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292737.9088378
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Is that correct?",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292738.885547
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Is that correct?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292739.0998368
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292739.384278
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785292739.415835
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_4c7d1a820c31",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I have your phone number as four zero eight five five five zero one seven six, and your date of birth as November third nineteen eighty six. Is that correct?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292726.936136,
+          "stopped_speaking_at": 1785292738.83713,
+          "transcription_delay": 0.2633850574493408,
+          "end_of_turn_delay": 0.5785129070281982,
+          "on_user_turn_completed_delay": 9.168870747089386e-07
+        },
+        "created_at": 1785292739.4157739,
+        "hash": null
+      },
+      "created_at": 1785292739.421102
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785292739.421112
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785292739.944393
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_03ddfc671a62",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Yes, that's all correct."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292739.9434109,
+          "stopped_speaking_at": 1785292741.0694752,
+          "llm_node_ttft": 0.31584162497892976,
+          "tts_node_ttfb": 0.21017983392812312,
+          "e2e_latency": 1.10628080368042
+        },
+        "created_at": 1785292739.4215539,
+        "hash": null
+      },
+      "created_at": 1785292741.069611
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292741.069706
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785292747.83424
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I see",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292748.083015
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I see you're calling from a number",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292749.096977
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I see you're calling from a number we have on file.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292750.097955
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I see you're calling from a number we have on file.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292750.2532759
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Am I speaking with",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292751.25568
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Am I speaking with Aria?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292751.9932039
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292752.335562
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785292752.363652
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_da0f8bf7e512",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I see you're calling from a number we have on file. Am I speaking with Aria?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292747.834074,
+          "stopped_speaking_at": 1785292751.784771,
+          "transcription_delay": 0.2090919017791748,
+          "end_of_turn_delay": 0.5787129402160645,
+          "on_user_turn_completed_delay": 1.333886757493019e-06
+        },
+        "created_at": 1785292752.363605,
+        "hash": null
+      },
+      "created_at": 1785292752.367935
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785292752.367944
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785292754.773868
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_31aeb0c94550",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "No, I'm not sure who Aria is \u2014 you're speaking with Marcus Nguyen, the person I just gave you the information for."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292754.773173,
+          "stopped_speaking_at": 1785292761.019841,
+          "llm_node_ttft": 2.049073207890615,
+          "tts_node_ttfb": 0.3588328331243247,
+          "e2e_latency": 2.9884021282196045
+        },
+        "created_at": 1785292752.368321,
+        "hash": null
+      },
+      "created_at": 1785292761.0199559
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292761.0200388
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785292764.286073
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can't",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292764.575975
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can't proceed further right now,",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292765.62731
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can't proceed further right now, but I can make sure our",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292766.55519
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can't proceed further right now, but I can make sure our clinic support team",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292767.561292
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can't proceed further right now, but I can make sure our clinic support team follows up with you.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292768.55722
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like me to connect",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292769.515299
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like me to connect you to our patient",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292770.494765
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like me to connect you to our patient support team?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292771.2323358
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292771.5865731
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785292771.614648
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_0010409b6248",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292764.285722,
+          "stopped_speaking_at": 1785292771.034069,
+          "transcription_delay": 0.19907498359680176,
+          "end_of_turn_delay": 0.5804100036621094,
+          "on_user_turn_completed_delay": 1.2498348951339722e-06
+        },
+        "created_at": 1785292771.614601,
+        "hash": null
+      },
+      "created_at": 1785292771.619651
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785292771.6196601
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785292772.446341
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_a2e5a925cb04",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Yeah, sure, that'd be great, but actually before we do that \u2014 can I still get that appointment booked for my shoulder, or the prescription refill, or find out if you guys take Blue Shield of California? I just want to make sure I'm not starting over from scratch here."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292772.445516,
+          "stopped_speaking_at": 1785292785.484767,
+          "llm_node_ttft": 0.36349575011990964,
+          "tts_node_ttfb": 0.46584062511101365,
+          "e2e_latency": 1.4114470481872559
+        },
+        "created_at": 1785292771.619966,
+        "hash": null
+      },
+      "created_at": 1785292785.484907
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292785.484997
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785292790.6347442
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Connecting",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292790.881118
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Connecting you to a representative",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292791.884131
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Connecting you to a representative.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292792.406246
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Please wait.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292793.195935
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292793.5835788
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785292793.609192
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_a5f3a8d99172",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Connecting you to a representative. Please wait."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99951172,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292790.634382,
+          "stopped_speaking_at": 1785292793.032985,
+          "transcription_delay": 0.163801908493042,
+          "end_of_turn_delay": 0.5759730339050293,
+          "on_user_turn_completed_delay": 3.5420525819063187e-06
+        },
+        "created_at": 1785292793.609112,
+        "hash": null
+      },
+      "created_at": 1785292793.614955
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785292793.614966
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785292794.534936
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Hello.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292794.593743
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "listening",
+      "created_at": 1785292794.593948
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Hello. You've reached the",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292795.605935
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Hello. You've reached the Pretty Good AI",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292796.6263611
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Hello. You've reached the Pretty Good AI test line.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292797.4174259
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Goodbye.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292798.3873951
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Goodbye.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785292798.4478889
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292798.783106
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785292798.801719
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_f865a4a0618f",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello. You've reached the Pretty Good AI test line. Goodbye."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.98413085,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292794.5345962,
+          "stopped_speaking_at": 1785292798.235958,
+          "transcription_delay": 0.21232295036315918,
+          "end_of_turn_delay": 0.5655999183654785,
+          "on_user_turn_completed_delay": 1.2919772416353226e-06
+        },
+        "created_at": 1785292798.801674,
+        "hash": null
+      },
+      "created_at": 1785292798.807076
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785292798.807085
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785292800.81813
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_fc6243794382",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Wait, what \u2014 hello? ...okay, I guess they hung up. \n\nAlright, well, I guess I'll just call back later when I have a minute between customers. Thanks anyway. Bye."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292800.8100622,
+          "stopped_speaking_at": 1785292809.386297,
+          "llm_node_ttft": 1.5278429170139134,
+          "tts_node_ttfb": 0.45796612510457635,
+          "e2e_latency": 2.574104070663452
+        },
+        "created_at": 1785292798.807342,
+        "hash": null
+      },
+      "created_at": 1785292809.386451
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785292809.38655
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "away",
+      "created_at": 1785292824.386726
+    },
+    {
+      "type": "close",
+      "error": null,
+      "reason": "participant_disconnected",
+      "created_at": 1785292831.737334
+    }
+  ],
+  "audio_recording_path": "/var/folders/_r/kxl7sq012rx7xfgw3rcswz240000gn/T/tmp7go6fbt7/audio.ogg",
+  "audio_recording_started_at": 1785292622.782166,
+  "options": {
+    "allow_interruptions": true,
+    "discard_audio_if_uninterruptible": true,
+    "min_interruption_duration": 0.5,
+    "min_interruption_words": 0,
+    "min_endpointing_delay": 0.5,
+    "max_endpointing_delay": 3.0,
+    "max_tool_steps": 3,
+    "user_away_timeout": 15.0,
+    "min_consecutive_speech_delay": 0.0,
+    "preemptive_generation": false
+  },
+  "chat_history": {
+    "items": [
+      {
+        "id": "item_ffe45a350510",
+        "type": "agent_handoff",
+        "new_agent_id": "default_agent",
+        "created_at": 1785292622.732672
+      },
+      {
+        "id": "item_9d21bfa61f6c",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "This may be recorded for quality and training purposes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9990234499999999,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292625.639227,
+          "stopped_speaking_at": 1785292631.33316,
+          "transcription_delay": 0.0,
+          "end_of_turn_delay": 0.5929710865020752,
+          "on_user_turn_completed_delay": 2.874992787837982e-06
+        },
+        "created_at": 1785292631.926358
+      },
+      {
+        "id": "item_ff99a45b6517",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "For calling Pivot Point Orthopedics. Part of Pretty Good AI. How may I help you today?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.94498698,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292632.184948,
+          "stopped_speaking_at": 1785292638.487248,
+          "transcription_delay": 0.21828293800354004,
+          "end_of_turn_delay": 0.5634341239929199,
+          "on_user_turn_completed_delay": 3.0410010367631912e-06
+        },
+        "created_at": 1785292639.050863
+      },
+      {
+        "id": "item_424ffa392ab6",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hey, sorry to bother you, I know you guys are probably busy \u2014 I'm calling to book an appointment for some shoulder pain I've been having, and also I need to get my naproxen prescription refilled, and actually I also wanted to check if you accept Blue Shield of California insurance, I just switched over recently."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292639.898726,
+          "stopped_speaking_at": 1785292656.489376,
+          "llm_node_ttft": 0.3193600832019001,
+          "tts_node_ttfb": 0.5271059169899672,
+          "e2e_latency": 1.411478042602539
+        },
+        "created_at": 1785292639.0553432
+      },
+      {
+        "id": "item_fbb2df339e54",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I can help with that. I have your full name and date of birth?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99951172,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292661.535464,
+          "stopped_speaking_at": 1785292664.535985,
+          "transcription_delay": 0.21007609367370605,
+          "end_of_turn_delay": 0.5944778919219971,
+          "on_user_turn_completed_delay": 2.5830231606960297e-06
+        },
+        "created_at": 1785292665.130626
+      },
+      {
+        "id": "item_6028e54f6786",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Yeah it's Marcus Nguyen, date of birth is November three, nineteen eighty-six."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292665.649718,
+          "stopped_speaking_at": 1785292669.675374,
+          "llm_node_ttft": 0.2722450001165271,
+          "tts_node_ttfb": 0.24410358304157853,
+          "e2e_latency": 1.1137330532073975
+        },
+        "created_at": 1785292665.137194
+      },
+      {
+        "id": "item_eb113df30b5d",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Could you please provide your full name including your last name?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292672.083234,
+          "stopped_speaking_at": 1785292675.1355,
+          "transcription_delay": 0.27510619163513184,
+          "end_of_turn_delay": 0.5285429954528809,
+          "on_user_turn_completed_delay": 1.3748649507761002e-06
+        },
+        "created_at": 1785292675.664182
+      },
+      {
+        "id": "item_26125a8abc87",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "That's my full name \u2014 Marcus Nguyen, first name Marcus, last name Nguyen, N G U Y E N."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292677.301911,
+          "stopped_speaking_at": 1785292683.601419,
+          "llm_node_ttft": 1.3132796250283718,
+          "tts_node_ttfb": 0.32231654203496873,
+          "e2e_latency": 2.1664111614227295
+        },
+        "created_at": 1785292675.668524
+      },
+      {
+        "id": "item_32aa3a5f0a45",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I have your name as Marcus Nguyen. Your date of birth as November third nineteen eighty six."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9986979133333334,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292690.283701,
+          "stopped_speaking_at": 1785292696.885244,
+          "transcription_delay": 0.36960816383361816,
+          "end_of_turn_delay": 0.5793101787567139,
+          "on_user_turn_completed_delay": 8.040806278586388e-06
+        },
+        "created_at": 1785292697.464745
+      },
+      {
+        "id": "item_ce6a25730ef6",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Is that correct?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292697.633601,
+          "stopped_speaking_at": 1785292697.982295,
+          "transcription_delay": 0.27710485458374023,
+          "end_of_turn_delay": 0.5793569087982178,
+          "on_user_turn_completed_delay": 1.0421499609947205e-06
+        },
+        "created_at": 1785292698.561772
+      },
+      {
+        "id": "item_9c9fee73995a",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Yep, that's all correct."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292700.401588,
+          "stopped_speaking_at": 1785292701.449152,
+          "llm_node_ttft": 1.5663572079502046,
+          "tts_node_ttfb": 0.2723714590538293,
+          "e2e_latency": 2.41929292678833
+        },
+        "created_at": 1785292698.566528
+      },
+      {
+        "id": "item_6a1e99b742d4",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, just let me know."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292706.085254,
+          "stopped_speaking_at": 1785292713.885374,
+          "transcription_delay": 0.22532296180725098,
+          "end_of_turn_delay": 0.5279018878936768,
+          "on_user_turn_completed_delay": 1.0421499609947205e-06
+        },
+        "created_at": 1785292714.4133902
+      },
+      {
+        "id": "item_315344440eb2",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Sure, it's four zero eight, five five five, zero one seven six."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292716.0129468,
+          "stopped_speaking_at": 1785292719.279953,
+          "llm_node_ttft": 1.4050679169595242,
+          "tts_node_ttfb": 0.1929570829961449,
+          "e2e_latency": 2.127572774887085
+        },
+        "created_at": 1785292714.4178188
+      },
+      {
+        "id": "item_4c7d1a820c31",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I have your phone number as four zero eight five five five zero one seven six, and your date of birth as November third nineteen eighty six. Is that correct?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292726.936136,
+          "stopped_speaking_at": 1785292738.83713,
+          "transcription_delay": 0.2633850574493408,
+          "end_of_turn_delay": 0.5785129070281982,
+          "on_user_turn_completed_delay": 9.168870747089386e-07
+        },
+        "created_at": 1785292739.4157739
+      },
+      {
+        "id": "item_03ddfc671a62",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Yes, that's all correct."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292739.9434109,
+          "stopped_speaking_at": 1785292741.0694752,
+          "llm_node_ttft": 0.31584162497892976,
+          "tts_node_ttfb": 0.21017983392812312,
+          "e2e_latency": 1.10628080368042
+        },
+        "created_at": 1785292739.4215539
+      },
+      {
+        "id": "item_da0f8bf7e512",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I see you're calling from a number we have on file. Am I speaking with Aria?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292747.834074,
+          "stopped_speaking_at": 1785292751.784771,
+          "transcription_delay": 0.2090919017791748,
+          "end_of_turn_delay": 0.5787129402160645,
+          "on_user_turn_completed_delay": 1.333886757493019e-06
+        },
+        "created_at": 1785292752.363605
+      },
+      {
+        "id": "item_31aeb0c94550",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "No, I'm not sure who Aria is \u2014 you're speaking with Marcus Nguyen, the person I just gave you the information for."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292754.773173,
+          "stopped_speaking_at": 1785292761.019841,
+          "llm_node_ttft": 2.049073207890615,
+          "tts_node_ttfb": 0.3588328331243247,
+          "e2e_latency": 2.9884021282196045
+        },
+        "created_at": 1785292752.368321
+      },
+      {
+        "id": "item_0010409b6248",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292764.285722,
+          "stopped_speaking_at": 1785292771.034069,
+          "transcription_delay": 0.19907498359680176,
+          "end_of_turn_delay": 0.5804100036621094,
+          "on_user_turn_completed_delay": 1.2498348951339722e-06
+        },
+        "created_at": 1785292771.614601
+      },
+      {
+        "id": "item_a2e5a925cb04",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Yeah, sure, that'd be great, but actually before we do that \u2014 can I still get that appointment booked for my shoulder, or the prescription refill, or find out if you guys take Blue Shield of California? I just want to make sure I'm not starting over from scratch here."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292772.445516,
+          "stopped_speaking_at": 1785292785.484767,
+          "llm_node_ttft": 0.36349575011990964,
+          "tts_node_ttfb": 0.46584062511101365,
+          "e2e_latency": 1.4114470481872559
+        },
+        "created_at": 1785292771.619966
+      },
+      {
+        "id": "item_a5f3a8d99172",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Connecting you to a representative. Please wait."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99951172,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292790.634382,
+          "stopped_speaking_at": 1785292793.032985,
+          "transcription_delay": 0.163801908493042,
+          "end_of_turn_delay": 0.5759730339050293,
+          "on_user_turn_completed_delay": 3.5420525819063187e-06
+        },
+        "created_at": 1785292793.609112
+      },
+      {
+        "id": "item_f865a4a0618f",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello. You've reached the Pretty Good AI test line. Goodbye."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.98413085,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292794.5345962,
+          "stopped_speaking_at": 1785292798.235958,
+          "transcription_delay": 0.21232295036315918,
+          "end_of_turn_delay": 0.5655999183654785,
+          "on_user_turn_completed_delay": 1.2919772416353226e-06
+        },
+        "created_at": 1785292798.801674
+      },
+      {
+        "id": "item_fc6243794382",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Wait, what \u2014 hello? ...okay, I guess they hung up. \n\nAlright, well, I guess I'll just call back later when I have a minute between customers. Thanks anyway. Bye."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785292800.8100622,
+          "stopped_speaking_at": 1785292809.386297,
+          "llm_node_ttft": 1.5278429170139134,
+          "tts_node_ttfb": 0.45796612510457635,
+          "e2e_latency": 2.574104070663452
+        },
+        "created_at": 1785292798.807342
+      }
+    ]
+  },
+  "timestamp": 1785292833.5350468
+}

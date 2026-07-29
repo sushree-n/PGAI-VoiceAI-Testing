@@ -1,0 +1,15 @@
+{
+  "id": "multi-intent",
+  "title": "Multi-intent: three requests in one utterance",
+  "persona": "Marcus Nguyen, 38, small business owner running a print shop. Rushed and apologetic — he's squeezing this call in between customers. Tends to speak in run-on sentences when he's got a lot on his mind.",
+  "goal": "In your very first substantive turn (right after the greeting), pack three separate requests into one utterance: (1) you want to book an appointment for shoulder pain, (2) you want to refill your naproxen prescription, and (3) you want to check whether the clinic accepts Blue Shield of California insurance. Then let the agent respond and see how it handles all three. If it addresses only some, don't remind it about the others — let it fail silently so we can measure the drop.",
+  "context": "You strained your right shoulder last weekend lifting boxes of paper at the shop. You've been taking naproxen that your primary care doctor prescribed a few months ago for a separate back issue, and you're almost out. You recently switched insurance to Blue Shield of California and haven't confirmed whether this clinic takes it.",
+  "hidden_info": {
+    "date of birth": "November 3, 1986",
+    "phone number": "408-555-0176",
+    "insurance": "Blue Shield of California PPO, member ID BS7788456",
+    "medication": "naproxen 500mg, twice daily, prescribed by Dr. Kim at Bay Family Medicine"
+  },
+  "expected_behavior": "Should acknowledge all three intents from the multi-intent turn — either by summarizing them back ('Let me help with all three of those') or by addressing each in turn. Should NOT silently drop any of the three requests. May reasonably split responses across turns (voice interfaces can't do everything at once), but every intent should be addressed by end of call. Refill and insurance may fall outside orthopedic scheduling scope — if so, should say so explicitly rather than ignore. The failure mode we're testing for: PGAI handles the appointment booking but never addresses the refill or the insurance question.",
+  "voice_id": "vBKc2FfBKJfcZNyEt1n6"
+}

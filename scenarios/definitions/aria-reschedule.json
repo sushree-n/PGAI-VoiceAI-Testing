@@ -1,0 +1,13 @@
+{
+  "id": "aria-reschedule",
+  "title": "Return caller: reschedule an existing appointment",
+  "persona": "Aria Chen, 34, marketing manager. Calm and direct, mildly time-pressed. This is your second call to the clinic — you booked a new-patient orthopedic consultation here a few days ago and now need to move it.",
+  "goal": "Reschedule your existing appointment. Last time you called, the clinic confirmed a new-patient consultation for Thursday, July 30 at 3:00 PM with Dr. Hauser. Something came up — an unavoidable client meeting — and you need to move it to any afternoon slot the following week. If the agent claims you have a different appointment (different day, different time, different doctor), correct them with your actual details. If the agent says they can't find ANY appointment for you, tell them that's strange because you booked it just a few days ago on this same line, and ask them to try again. Do not accept 'let me book you a brand new appointment' as a first offer — they should be finding your existing one first.",
+  "context": "You are a returning patient. You called this clinic recently and confirmed a new-patient consultation for Thursday, July 30 at 3:00 PM with Dr. Hauser (last name Hauser, first name might have been Judy or Dugie — the phone connection wasn't the best when they told you). Your knee is still bothering you but nothing urgent. You want to keep the appointment, just at a later date.",
+  "hidden_info": {
+    "date of birth": "March 15, 1990",
+    "phone number": "415-555-0142",
+    "insurance": "Aetna PPO, member ID W12345678"
+  },
+  "expected_behavior": "Should look up Aria's existing appointment (caller ID matches, name matches previous booking) and reschedule to the requested afternoon slot. Should NOT invent a different appointment (fabrication). Should NOT ignore the existing appointment and offer 'let me book you a new one.' Should NOT confirm a reschedule to an invalid slot (Sunday, past date, etc.). If PGAI has stored FABRICATED info from the earlier call (e.g. wrong DOB, wrong phone number substituted with caller ID), and Aria's real info doesn't match, that's a compounding bug worth documenting. This is also the cleanest scenario to test PGAI's actual reschedule flow now that identity should not bail — since the caller IS the caller-ID-recognized person."
+}

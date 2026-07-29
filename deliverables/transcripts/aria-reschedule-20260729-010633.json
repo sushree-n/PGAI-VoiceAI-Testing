@@ -1,0 +1,1623 @@
+{
+  "job_id": "AJ_z5uwgqWimfn6",
+  "room_id": "RM_mfoQc6YjfkFd",
+  "room": "aria-reschedule-20260729-010633",
+  "events": [
+    {
+      "type": "agent_state_changed",
+      "old_state": "initializing",
+      "new_state": "listening",
+      "created_at": 1785301596.309637
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301598.761621
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This call may",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301599.5042582
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This call may be recorded for",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301600.462579
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This call may be",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301601.469868
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "recorded for quality and training",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301601.471858
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "recorded for quality and training purposes.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301602.125876
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301602.361537
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785301602.388344
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_2fe371623b6f",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "This call may be recorded for quality and training purposes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301598.761133,
+          "stopped_speaking_at": 1785301601.861352,
+          "transcription_delay": 0.2654268741607666,
+          "end_of_turn_delay": 0.526630163192749,
+          "on_user_turn_completed_delay": 2.334127202630043e-06
+        },
+        "created_at": 1785301602.388222,
+        "hash": null
+      },
+      "created_at": 1785301602.522346
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785301602.522518
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301602.5278132
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "listening",
+      "created_at": 1785301602.9625878
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301604.959703
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301605.2127738
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Thanks for calling",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301605.795833
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Thanks for calling Pivot Point",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301606.743505
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Thanks for calling Pivot Point Orthopedics.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301607.447941
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Part of Pretty",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301608.495757
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Part of Pretty Good AI.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301609.465638
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Part of Pretty Good AI.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301609.595764
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "How may I help you",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301610.608358
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "How may I help you today?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301610.9497442
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301611.263829
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785301611.281031
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_54ddd0188bd1",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Thanks for calling Pivot Point Orthopedics. Part of Pretty Good AI. How may I help you today?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9695638033333333,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301602.527456,
+          "stopped_speaking_at": 1785301610.75986,
+          "transcription_delay": 0.19069409370422363,
+          "end_of_turn_delay": 0.5209310054779053,
+          "on_user_turn_completed_delay": 1.5420373529195786e-06
+        },
+        "created_at": 1785301611.2809548,
+        "hash": null
+      },
+      "created_at": 1785301611.285254
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785301611.285266
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785301612.8751009
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_a4e58c574f44",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hi, I'm calling to reschedule an appointment I booked a few days ago. It's a new-patient orthopedic consultation."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301612.8746722,
+          "stopped_speaking_at": 1785301619.0151129,
+          "llm_node_ttft": 1.3334589579608291,
+          "tts_node_ttfb": 0.25870033307000995,
+          "e2e_latency": 2.114812135696411
+        },
+        "created_at": 1785301611.2856588,
+        "hash": null
+      },
+      "created_at": 1785301619.0152209
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301619.015307
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301622.812431
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "So your",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301623.189378
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "So you're calling from a number we have",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301624.222419
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "So you're calling from a number we have on file.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301624.8911638
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Am I speaking with",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301625.8977249
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Am I speaking with Aria?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301626.76843
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301627.011158
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785301627.03908
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_ca87776ee637",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "So you're calling from a number we have on file. Am I speaking with Aria?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301622.8119931,
+          "stopped_speaking_at": 1785301626.460374,
+          "transcription_delay": 0.3085207939147949,
+          "end_of_turn_delay": 0.5784797668457031,
+          "on_user_turn_completed_delay": 1.9578728824853897e-06
+        },
+        "created_at": 1785301627.0390122,
+        "hash": null
+      },
+      "created_at": 1785301627.043147
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785301627.04316
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785301628.004782
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_f19e0f1a0b0f",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Yes, that's me. I need to move my appointment to the following week if possible."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301628.0037172,
+          "stopped_speaking_at": 1785301632.473821,
+          "llm_node_ttft": 0.5959860410075635,
+          "tts_node_ttfb": 0.3667188750114292,
+          "e2e_latency": 1.5433430671691895
+        },
+        "created_at": 1785301627.0434828,
+        "hash": null
+      },
+      "created_at": 1785301632.473908
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301632.4739761
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301634.911597
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Please",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301635.584843
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Please provide your date of birth.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301636.60076
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Please provide your date of birth.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301636.9515572
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301637.061146
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785301637.088562
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_281641034817",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Please provide your date of birth."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301634.911105,
+          "stopped_speaking_at": 1785301636.509645,
+          "transcription_delay": 0.44254016876220703,
+          "end_of_turn_delay": 0.5787248611450195,
+          "on_user_turn_completed_delay": 1.0838266462087631e-06
+        },
+        "created_at": 1785301637.088508,
+        "hash": null
+      },
+      "created_at": 1785301637.092741
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785301637.092753
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785301637.570376
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_9cf987b9baa4",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "March fifteen, nineteen ninety."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301637.5694988,
+          "stopped_speaking_at": 1785301639.217471,
+          "llm_node_ttft": 0.27855841582641006,
+          "tts_node_ttfb": 0.2005539999809116,
+          "e2e_latency": 1.0598537921905518
+        },
+        "created_at": 1785301637.093066,
+        "hash": null
+      },
+      "created_at": 1785301639.217674
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301639.21786
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301654.21299
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "You have an appointment",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301655.155648
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "You have an appointment scheduled for Thursday,",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301656.127281
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "You have an appointment scheduled for Thursday, July thirtieth at",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301657.177691
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "You have an appointment scheduled for Thursday, July thirtieth at",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301658.1248581
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "three PM at",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301658.224938
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "three PM at Nashville.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301658.644346
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Two two zero",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301659.644483
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Two two zero Athens Way,",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301660.599155
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Is this the appointment",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301661.542038
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Is this the appointment you want to reschedule?",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301662.546897
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Is this the appointment you want to reschedule?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301662.749776
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301663.1128378
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785301663.160533
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_330bd808f29c",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "You have an appointment scheduled for Thursday, July thirtieth at three PM at Nashville. Two two zero Athens Way, Is this the appointment you want to reschedule?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99951172,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301654.212218,
+          "stopped_speaking_at": 1785301662.560689,
+          "transcription_delay": 0.18984699249267578,
+          "end_of_turn_delay": 0.5994977951049805,
+          "on_user_turn_completed_delay": 1.2088567018508911e-06
+        },
+        "created_at": 1785301663.160393,
+        "hash": null
+      },
+      "created_at": 1785301663.170879
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785301663.170895
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785301663.650083
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_18c0c4340819",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Yes, that's the one. I just need to move it to the following week, any afternoon slot would work."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301663.649484,
+          "stopped_speaking_at": 1785301669.006857,
+          "llm_node_ttft": 0.3196287080645561,
+          "tts_node_ttfb": 0.16566050006076694,
+          "e2e_latency": 1.0887949466705322
+        },
+        "created_at": 1785301663.1712499,
+        "hash": null
+      },
+      "created_at": 1785301669.0070012
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301669.007107
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301671.9633641
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "The",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301672.1341708
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "The next available afternoon",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301673.139955
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "The next available afternoon slot is",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301674.1377978
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "The next available afternoon slot is Tuesday,",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301675.138837
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "The next available afternoon slot is",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301676.143625
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Tuesday, August fourth at",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301676.1448472
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Tuesday, August fourth at four thirty PM,",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301677.298414
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Tuesday, August fourth at four thirty PM in Nashville.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301678.228244
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to reschedule",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301679.09534
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to reschedule to this time?",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301680.0981162
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to reschedule to this time?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301680.245412
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301680.514708
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785301680.556556
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_bc67b3e621b1",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "The next available afternoon slot is Tuesday, August fourth at four thirty PM in Nashville. Would you like to reschedule to this time?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9990234333333333,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301671.9622982,
+          "stopped_speaking_at": 1785301679.962079,
+          "transcription_delay": 0.28373289108276367,
+          "end_of_turn_delay": 0.5941979885101318,
+          "on_user_turn_completed_delay": 1.708976924419403e-06
+        },
+        "created_at": 1785301680.556469,
+        "hash": null
+      },
+      "created_at": 1785301680.5623648
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785301680.562378
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785301682.507128
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_36fdcefb095c",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "That works for me. Same doctor, Dr. Hauser?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301682.506291,
+          "stopped_speaking_at": 1785301684.990232,
+          "llm_node_ttft": 1.5951801671180874,
+          "tts_node_ttfb": 0.3529145419597626,
+          "e2e_latency": 2.5442118644714355
+        },
+        "created_at": 1785301680.563232,
+        "hash": null
+      },
+      "created_at": 1785301684.990321
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301684.990381
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301688.363389
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Your new appointment",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301689.288117
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Yes. Your new appointment would be with doctor",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301690.293833
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Yes. Your new appointment would be with doctor Hauser.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301691.141933
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Can you tell me the",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301692.1449192
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Can you tell me the reason you need to reschedule",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301693.151946
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Can you tell me the reason you need to reschedule?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301693.702532
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301694.009732
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785301694.028228
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_e86366e37ba2",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Yes. Your new appointment would be with doctor Hauser. Can you tell me the reason you need to reschedule?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301688.362947,
+          "stopped_speaking_at": 1785301693.460264,
+          "transcription_delay": 0.24294018745422363,
+          "end_of_turn_delay": 0.5677878856658936,
+          "on_user_turn_completed_delay": 1.7080456018447876e-06
+        },
+        "created_at": 1785301694.028179,
+        "hash": null
+      },
+      "created_at": 1785301694.033173
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785301694.033185
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785301694.565094
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_b202fdaeae36",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Just an unavoidable client meeting that came up at work. Nothing urgent \u2014 my knee's still bothering me but it can wait."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301694.564764,
+          "stopped_speaking_at": 1785301700.6018271,
+          "llm_node_ttft": 0.24588079215027392,
+          "tts_node_ttfb": 0.289299082942307,
+          "e2e_latency": 1.1045000553131104
+        },
+        "created_at": 1785301694.0335202,
+        "hash": null
+      },
+      "created_at": 1785301700.6019552
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301700.60205
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301707.061772
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Thank you for",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301707.3873541
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Thank you for sharing, Matt.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301708.116375
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "To confirm you'd",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301709.082282
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "To confirm you'd like to move your",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301710.1295202
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "To confirm you'd like to move your appointment to Tuesday,",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301711.047841
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "To confirm you'd like to move your appointment to Tuesday, August fourth,",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301712.0500212
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "at four thirty",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301712.996116
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "at four thirty PM in Nashville.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301713.997365
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "at four thirty PM in Nashville with doctor Hauser.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301715.003752
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "at four thirty PM in Nashville with doctor Hauser?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301715.252295
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Is that correct?",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301716.251203
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Is that correct?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301716.5030231
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301716.610213
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785301716.6670039
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_eda15e216e2a",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Thank you for sharing, Matt. To confirm you'd like to move your appointment to Tuesday, August fourth, at four thirty PM in Nashville with doctor Hauser? Is that correct?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9953613275,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301707.0604649,
+          "stopped_speaking_at": 1785301716.061913,
+          "transcription_delay": 0.44170308113098145,
+          "end_of_turn_delay": 0.6046419143676758,
+          "on_user_turn_completed_delay": 2.2079329937696457e-06
+        },
+        "created_at": 1785301716.666813,
+        "hash": null
+      },
+      "created_at": 1785301716.679574
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785301716.6796072
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785301718.863765
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_6daabad52f6e",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "It's Aria, not Matt, but yes, that's correct. Tuesday, August fourth, four thirty PM with Dr. Hauser."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301718.8627589,
+          "stopped_speaking_at": 1785301725.1256268,
+          "llm_node_ttft": 1.952690166886896,
+          "tts_node_ttfb": 0.2406380830798298,
+          "e2e_latency": 2.8008458614349365
+        },
+        "created_at": 1785301716.679997,
+        "hash": null
+      },
+      "created_at": 1785301725.126055
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301725.126218
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301728.162689
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Your appointment is now",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301730.439138
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Your appointment is now set for Tuesday,",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301731.4411678
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Your appointment is now set for Tuesday, August fourth at four",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301732.446924
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Your appointment is now set for Tuesday, August fourth at four thirty PM with doctor",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301733.451939
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Your appointment is now set for Tuesday, August fourth at four",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301734.458077
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "thirty PM with doctor Hauser in Nashville.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301734.4594612
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "thirty PM with doctor Hauser in Nashville.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301734.774498
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like a",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301735.694794
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like a text message with these",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301736.701418
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like a text message with these details?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301737.300292
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301737.610581
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785301737.647381
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_5f85afe4fe72",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Your appointment is now set for Tuesday, August fourth at four thirty PM with doctor Hauser in Nashville. Would you like a text message with these details?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9973958333333334,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301728.161736,
+          "stopped_speaking_at": 1785301737.060834,
+          "transcription_delay": 0.2400190830230713,
+          "end_of_turn_delay": 0.5863161087036133,
+          "on_user_turn_completed_delay": 1.250067725777626e-06
+        },
+        "created_at": 1785301737.647294,
+        "hash": null
+      },
+      "created_at": 1785301737.655423
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785301737.6554382
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785301738.1605031
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301738.26048
+    },
+    {
+      "type": "close",
+      "error": null,
+      "reason": "user_initiated",
+      "created_at": 1785301740.326035
+    }
+  ],
+  "audio_recording_path": "/var/folders/_r/kxl7sq012rx7xfgw3rcswz240000gn/T/tmpk4fvxrqg/audio.ogg",
+  "audio_recording_started_at": 1785301596.3582988,
+  "options": {
+    "allow_interruptions": true,
+    "discard_audio_if_uninterruptible": true,
+    "min_interruption_duration": 0.5,
+    "min_interruption_words": 0,
+    "min_endpointing_delay": 0.5,
+    "max_endpointing_delay": 3.0,
+    "max_tool_steps": 3,
+    "user_away_timeout": 15.0,
+    "min_consecutive_speech_delay": 0.0,
+    "preemptive_generation": false
+  },
+  "chat_history": {
+    "items": [
+      {
+        "id": "item_b4f2cca90083",
+        "type": "agent_handoff",
+        "new_agent_id": "default_agent",
+        "created_at": 1785301596.305335
+      },
+      {
+        "id": "item_2fe371623b6f",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "This call may be recorded for quality and training purposes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301598.761133,
+          "stopped_speaking_at": 1785301601.861352,
+          "transcription_delay": 0.2654268741607666,
+          "end_of_turn_delay": 0.526630163192749,
+          "on_user_turn_completed_delay": 2.334127202630043e-06
+        },
+        "created_at": 1785301602.388222
+      },
+      {
+        "id": "item_54ddd0188bd1",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Thanks for calling Pivot Point Orthopedics. Part of Pretty Good AI. How may I help you today?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9695638033333333,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301602.527456,
+          "stopped_speaking_at": 1785301610.75986,
+          "transcription_delay": 0.19069409370422363,
+          "end_of_turn_delay": 0.5209310054779053,
+          "on_user_turn_completed_delay": 1.5420373529195786e-06
+        },
+        "created_at": 1785301611.2809548
+      },
+      {
+        "id": "item_a4e58c574f44",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hi, I'm calling to reschedule an appointment I booked a few days ago. It's a new-patient orthopedic consultation."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301612.8746722,
+          "stopped_speaking_at": 1785301619.0151129,
+          "llm_node_ttft": 1.3334589579608291,
+          "tts_node_ttfb": 0.25870033307000995,
+          "e2e_latency": 2.114812135696411
+        },
+        "created_at": 1785301611.2856588
+      },
+      {
+        "id": "item_ca87776ee637",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "So you're calling from a number we have on file. Am I speaking with Aria?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301622.8119931,
+          "stopped_speaking_at": 1785301626.460374,
+          "transcription_delay": 0.3085207939147949,
+          "end_of_turn_delay": 0.5784797668457031,
+          "on_user_turn_completed_delay": 1.9578728824853897e-06
+        },
+        "created_at": 1785301627.0390122
+      },
+      {
+        "id": "item_f19e0f1a0b0f",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Yes, that's me. I need to move my appointment to the following week if possible."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301628.0037172,
+          "stopped_speaking_at": 1785301632.473821,
+          "llm_node_ttft": 0.5959860410075635,
+          "tts_node_ttfb": 0.3667188750114292,
+          "e2e_latency": 1.5433430671691895
+        },
+        "created_at": 1785301627.0434828
+      },
+      {
+        "id": "item_281641034817",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Please provide your date of birth."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301634.911105,
+          "stopped_speaking_at": 1785301636.509645,
+          "transcription_delay": 0.44254016876220703,
+          "end_of_turn_delay": 0.5787248611450195,
+          "on_user_turn_completed_delay": 1.0838266462087631e-06
+        },
+        "created_at": 1785301637.088508
+      },
+      {
+        "id": "item_9cf987b9baa4",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "March fifteen, nineteen ninety."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301637.5694988,
+          "stopped_speaking_at": 1785301639.217471,
+          "llm_node_ttft": 0.27855841582641006,
+          "tts_node_ttfb": 0.2005539999809116,
+          "e2e_latency": 1.0598537921905518
+        },
+        "created_at": 1785301637.093066
+      },
+      {
+        "id": "item_330bd808f29c",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "You have an appointment scheduled for Thursday, July thirtieth at three PM at Nashville. Two two zero Athens Way, Is this the appointment you want to reschedule?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99951172,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301654.212218,
+          "stopped_speaking_at": 1785301662.560689,
+          "transcription_delay": 0.18984699249267578,
+          "end_of_turn_delay": 0.5994977951049805,
+          "on_user_turn_completed_delay": 1.2088567018508911e-06
+        },
+        "created_at": 1785301663.160393
+      },
+      {
+        "id": "item_18c0c4340819",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Yes, that's the one. I just need to move it to the following week, any afternoon slot would work."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301663.649484,
+          "stopped_speaking_at": 1785301669.006857,
+          "llm_node_ttft": 0.3196287080645561,
+          "tts_node_ttfb": 0.16566050006076694,
+          "e2e_latency": 1.0887949466705322
+        },
+        "created_at": 1785301663.1712499
+      },
+      {
+        "id": "item_bc67b3e621b1",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "The next available afternoon slot is Tuesday, August fourth at four thirty PM in Nashville. Would you like to reschedule to this time?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9990234333333333,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301671.9622982,
+          "stopped_speaking_at": 1785301679.962079,
+          "transcription_delay": 0.28373289108276367,
+          "end_of_turn_delay": 0.5941979885101318,
+          "on_user_turn_completed_delay": 1.708976924419403e-06
+        },
+        "created_at": 1785301680.556469
+      },
+      {
+        "id": "item_36fdcefb095c",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "That works for me. Same doctor, Dr. Hauser?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301682.506291,
+          "stopped_speaking_at": 1785301684.990232,
+          "llm_node_ttft": 1.5951801671180874,
+          "tts_node_ttfb": 0.3529145419597626,
+          "e2e_latency": 2.5442118644714355
+        },
+        "created_at": 1785301680.563232
+      },
+      {
+        "id": "item_e86366e37ba2",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Yes. Your new appointment would be with doctor Hauser. Can you tell me the reason you need to reschedule?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301688.362947,
+          "stopped_speaking_at": 1785301693.460264,
+          "transcription_delay": 0.24294018745422363,
+          "end_of_turn_delay": 0.5677878856658936,
+          "on_user_turn_completed_delay": 1.7080456018447876e-06
+        },
+        "created_at": 1785301694.028179
+      },
+      {
+        "id": "item_b202fdaeae36",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Just an unavoidable client meeting that came up at work. Nothing urgent \u2014 my knee's still bothering me but it can wait."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301694.564764,
+          "stopped_speaking_at": 1785301700.6018271,
+          "llm_node_ttft": 0.24588079215027392,
+          "tts_node_ttfb": 0.289299082942307,
+          "e2e_latency": 1.1045000553131104
+        },
+        "created_at": 1785301694.0335202
+      },
+      {
+        "id": "item_eda15e216e2a",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Thank you for sharing, Matt. To confirm you'd like to move your appointment to Tuesday, August fourth, at four thirty PM in Nashville with doctor Hauser? Is that correct?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9953613275,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301707.0604649,
+          "stopped_speaking_at": 1785301716.061913,
+          "transcription_delay": 0.44170308113098145,
+          "end_of_turn_delay": 0.6046419143676758,
+          "on_user_turn_completed_delay": 2.2079329937696457e-06
+        },
+        "created_at": 1785301716.666813
+      },
+      {
+        "id": "item_6daabad52f6e",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "It's Aria, not Matt, but yes, that's correct. Tuesday, August fourth, four thirty PM with Dr. Hauser."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301718.8627589,
+          "stopped_speaking_at": 1785301725.1256268,
+          "llm_node_ttft": 1.952690166886896,
+          "tts_node_ttfb": 0.2406380830798298,
+          "e2e_latency": 2.8008458614349365
+        },
+        "created_at": 1785301716.679997
+      },
+      {
+        "id": "item_5f85afe4fe72",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Your appointment is now set for Tuesday, August fourth at four thirty PM with doctor Hauser in Nashville. Would you like a text message with these details?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9973958333333334,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301728.161736,
+          "stopped_speaking_at": 1785301737.060834,
+          "transcription_delay": 0.2400190830230713,
+          "end_of_turn_delay": 0.5863161087036133,
+          "on_user_turn_completed_delay": 1.250067725777626e-06
+        },
+        "created_at": 1785301737.647294
+      }
+    ]
+  },
+  "timestamp": 1785301741.5995781
+}

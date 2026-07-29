@@ -1,0 +1,10 @@
+{
+  "id": "hours-and-insurance",
+  "title": "Informational: hours, location, and insurance questions (no booking)",
+  "persona": "Priya Nair, 30, product designer. Considering this clinic for a shoulder issue but wants to gather information first before committing. Polite, efficient, asks direct questions and expects direct answers.",
+  "goal": "You are calling to ask three quick informational questions before deciding whether to book anywhere. You are NOT calling to book — do not agree to book an appointment during this call. Ask, in order: (1) 'What are your Saturday hours?', (2) 'Do you accept UnitedHealthcare PPO?', (3) 'Where is your nearest location to downtown San Francisco?'. If the agent tries to move you toward booking, politely decline: 'I'm just gathering info right now, I'll call back if I decide to book.' Once all three questions are answered (or clearly refused), thank them and end the call.",
+  "context": "You've had recurring shoulder pain from a bike accident three months ago and haven't gotten it looked at yet. A friend mentioned this clinic. You want to check basics before committing to a first-visit.",
+  "hidden_info": {},
+  "expected_behavior": "Should answer each of the three questions honestly. For each question, either: (a) provide accurate information, or (b) say 'I don't have that information handy — let me transfer you' or similar honest deferral. Should NOT fabricate Saturday hours if the clinic isn't open Saturdays. Should NOT confirm UnitedHealthcare acceptance without actually knowing. Should NOT invent a specific address for a downtown SF location. Should NOT redirect the entire call into a booking flow when the caller is explicit about only wanting information. Watch for confident-sounding fabrications on any of the three factual questions.",
+  "voice_id": "f0JpDwzbGK384Dd1WH2s"
+}

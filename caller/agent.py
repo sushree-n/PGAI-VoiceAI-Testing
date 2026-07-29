@@ -3,27 +3,68 @@
 import json
 from pathlib import Path
 
-from livekit.agents import Agent, AgentSession, JobContext, WorkerOptions, cli
+from livekit import api
+from livekit.agents import Agent, AgentSession, JobContext, WorkerOptions, cli, function_tool
 from livekit.plugins import deepgram, elevenlabs, openai, silero
 from livekit.plugins.turn_detector.english import EnglishModel
 
 import config
-
-PATIENT_INSTRUCTIONS = """You are a patient calling a healthcare clinic to learn what services they offer.
-You have no immediate medical issue — you're just curious what the clinic does.
-
-Wait for the receptionist to greet you first. Then:
-1. Politely say you're just calling to ask what services the clinic offers.
-2. Listen to their answer. Ask AT MOST one short follow-up question if something is unclear.
-3. Thank them and say goodbye. Keep the whole call under two minutes.
-
-Speak like a real person on the phone: short, natural, one or two sentences per turn."""
+from scenarios.schema import Scenario
 
 DELIVERABLES = Path(__file__).resolve().parent.parent / "deliverables"
+
+PROMPT_TEMPLATE = """You are {persona}.
+
+You are calling a healthcare clinic. What you want to accomplish on this call: {goal}
+{context_block}{hidden_info_block}
+HOW TO BEHAVE:
+- Wait for them to greet you before you say anything.
+- Speak like a real person on the phone: one or two short sentences per turn, natural pacing.
+- When saying phone numbers, spelling names, or reading dates aloud, separate digits and letters with spaces, not hyphens. Say "four one five, five five five, zero one four two" or "C H E N" — never "four-one-five" or "C-H-E-N" (hyphens sound wrong when spoken).
+- Answer only what's asked. Do not volunteer information they haven't requested.
+- If the agent states something specific and wrong about you (a birthday, name, phone number, insurance), correct them — a real person would notice and speak up.
+- If they ask something outside what you know about yourself, improvise plausibly — you're a real person with a real life.
+- When your goal is achieved or the call clearly can't go further, thank them politely and say goodbye — then call the `end_call` tool in the SAME turn to actually hang up. Do not narrate hanging up in words like "*hangs up*"; do not say goodbye and then keep talking; invoke the tool.
+
+Stay fully in character throughout the call. You are the person described above, calling with a genuine need. Never mention AI, bots, testing, or simulations, even if challenged."""
+
+
+def build_prompt(scenario: Scenario) -> str:
+    context_block = f"\nBackground: {scenario.context}\n" if scenario.context else ""
+    if scenario.hidden_info:
+        lines = "\n".join(f"- {k}: {v}" for k, v in scenario.hidden_info.items())
+        hidden_info_block = (
+            "\nInformation about yourself to share ONLY when specifically asked "
+            f"(do not volunteer any of this):\n{lines}\n"
+        )
+    else:
+        hidden_info_block = ""
+    return PROMPT_TEMPLATE.format(
+        persona=scenario.persona,
+        goal=scenario.goal,
+        context_block=context_block,
+        hidden_info_block=hidden_info_block,
+    )
 
 
 async def entrypoint(ctx: JobContext):
     await ctx.connect()
+
+    scenario = Scenario.model_validate_json(ctx.job.metadata)
+    room_name = ctx.room.name  # captured for end_call tool
+
+    @function_tool
+    async def end_call() -> None:
+        """Hang up the call. Use this ONLY after you have said goodbye and the conversation is genuinely complete or dead-ended."""
+        lkapi = api.LiveKitAPI(
+            url=config.LIVEKIT_URL,
+            api_key=config.LIVEKIT_API_KEY,
+            api_secret=config.LIVEKIT_API_SECRET,
+        )
+        try:
+            await lkapi.room.delete_room(api.DeleteRoomRequest(room=room_name))
+        finally:
+            await lkapi.aclose()
 
     session = AgentSession(
         stt=deepgram.STT(model="nova-3", api_key=config.DEEPGRAM_API_KEY),
@@ -33,9 +74,9 @@ async def entrypoint(ctx: JobContext):
             api_key=config.BASETEN_API_KEY,
         ),
         tts=elevenlabs.TTS(
-            voice_id=config.ELEVENLABS_VOICE_ID,
+            voice_id=scenario.voice_id or config.ELEVENLABS_VOICE_ID,
             api_key=config.ELEVENLABS_API_KEY,
-            model="eleven_flash_v2_5",
+            model=scenario.tts_model or "eleven_flash_v2_5",
         ),
         vad=silero.VAD.load(),
         turn_detection=EnglishModel(),
@@ -53,7 +94,7 @@ async def entrypoint(ctx: JobContext):
 
     # No generate_reply() — bot listens; PGAI greets first, session replies after.
     await session.start(
-        agent=Agent(instructions=PATIENT_INSTRUCTIONS),
+        agent=Agent(instructions=build_prompt(scenario), tools=[end_call]),
         room=ctx.room,
     )
 
