@@ -1,0 +1,1019 @@
+{
+  "job_id": "AJ_ybw3jvxWwLdR",
+  "room_id": "RM_7Dkqz7N5tUcF",
+  "room": "hours-and-insurance-20260729-005816",
+  "events": [
+    {
+      "type": "agent_state_changed",
+      "old_state": "initializing",
+      "new_state": "listening",
+      "created_at": 1785301099.528403
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301102.5753028
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301102.648915
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This call may be",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301103.673771
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301104.7519512
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "call may be recorded for quality",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301104.788975
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "call may be recorded for quality and training purposes.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301105.772712
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "call may be recorded for quality and training purposes.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301105.9052942
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301106.223924
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785301106.240587
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_39ee1ea98935",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "This call may be recorded for quality and training purposes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99560547,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301102.574903,
+          "stopped_speaking_at": 1785301105.6751812,
+          "transcription_delay": 0.23082900047302246,
+          "end_of_turn_delay": 0.5652279853820801,
+          "on_user_turn_completed_delay": 1.00000761449337e-06
+        },
+        "created_at": 1785301106.240524,
+        "hash": null
+      },
+      "created_at": 1785301106.371399
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785301106.3714602
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301106.3754098
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "listening",
+      "created_at": 1785301106.8242218
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "But I",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301106.909019
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301108.7750778
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301109.17329
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Thanks for",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301109.653162
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Thanks for calling Pivot Point or",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301110.6577332
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Thanks for calling Pivot Point Orthopaedics.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301111.6575801
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Thanks for calling Pivot Point Orthopaedics.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301111.7594318
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Part of Pretty Good",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301112.76631
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Part of Pretty Good AI.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301113.211353
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "May I help you today?",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301114.212498
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "How may I help you today?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301114.4593952
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301114.722807
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785301114.737189
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_c8ee0ac57fb4",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9710286466666668,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301106.3752131,
+          "stopped_speaking_at": 1785301114.17501,
+          "transcription_delay": 0.28508591651916504,
+          "end_of_turn_delay": 0.5620100498199463,
+          "on_user_turn_completed_delay": 1.333886757493019e-06
+        },
+        "created_at": 1785301114.737131,
+        "hash": null
+      },
+      "created_at": 1785301114.7407842
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785301114.740795
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785301117.0836911
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_5e6840b6345e",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hi, I'm calling to ask a few quick questions before deciding whether to book an appointment. Can you tell me what your Saturday hours are?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301117.083223,
+          "stopped_speaking_at": 1785301123.9290922,
+          "llm_node_ttft": 2.0914612498600036,
+          "tts_node_ttfb": 0.2534349160268903,
+          "e2e_latency": 2.9082131385803223
+        },
+        "created_at": 1785301114.7412548,
+        "hash": null
+      },
+      "created_at": 1785301123.929237
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301123.92934
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301127.025661
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Tenet Point Ortho",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301127.78773
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Pivot Point Orthopaedics is open",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301128.840544
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Pivot Point Orthopedics is open Monday through Friday.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301129.811696
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "But we are closed",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301130.761821
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "But we are closed on Saturdays.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301131.763894
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "But we are closed on Saturdays. If you'd like,",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301132.780241
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "But we are closed on Saturdays. If you'd like,",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301132.9583292
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can share our week",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301133.862941
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can share our weekday hours or help",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301134.860897
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can share our weekday hours or help with any other questions.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301135.864476
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can share our weekday hours or help with any other questions.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301136.1973991
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301136.324682
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785301136.3536441
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_143df6c45ddb",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Pivot Point Orthopedics is open Monday through Friday. But we are closed on Saturdays. If you'd like, I can share our weekday hours or help with any other questions."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9993489666666666,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301127.0252469,
+          "stopped_speaking_at": 1785301135.7729979,
+          "transcription_delay": 0.42511510848999023,
+          "end_of_turn_delay": 0.580502986907959,
+          "on_user_turn_completed_delay": 1.291045919060707e-06
+        },
+        "created_at": 1785301136.353602,
+        "hash": null
+      },
+      "created_at": 1785301136.357056
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785301136.357066
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785301138.591296
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_9abd6b138be5",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Okay, got it, no Saturday hours. Second question \u2014 do you accept UnitedHealthcare PPO?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301138.5904331,
+          "stopped_speaking_at": 1785301144.129431,
+          "llm_node_ttft": 1.9783138751517981,
+          "tts_node_ttfb": 0.2571397079154849,
+          "e2e_latency": 2.8174352645874023
+        },
+        "created_at": 1785301136.357419,
+        "hash": null
+      },
+      "created_at": 1785301144.129494
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301144.129539
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301146.976182
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Yes. Pivot",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301147.8024058
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Yes. Pivot Point Orthopedics",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301148.804665
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Yes. Pivot Point Orthopedics accepts most insurance",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301149.811359
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Yes. Pivot Point Orthopedics accepts most insurance plans, including",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301150.865695
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Yes. Pivot Point Orthopedics accepts most insurance plans.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301151.836388
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Including UnitedHealthcare",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301151.8374789
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Including UnitedHealthcare PTO.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301152.510491
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If you have more questions",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301153.5108511
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If you have more questions about coverage or",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301154.542048
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If you have more questions about coverage or wanna check your specific",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301155.585718
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If you have more questions about coverage or wanna check your specific plan, I can help with",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301156.550656
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If you have more questions about coverage or wanna check your specific plan, I can help with that too.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301157.169696
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301157.426704
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785301157.4559438
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_d6fc28a30a76",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Yes. Pivot Point Orthopedics accepts most insurance plans. Including UnitedHealthcare PTO. If you have more questions about coverage or wanna check your specific plan, I can help with that too."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9978841166666667,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301146.9758132,
+          "stopped_speaking_at": 1785301156.875424,
+          "transcription_delay": 0.294572114944458,
+          "end_of_turn_delay": 0.5803651809692383,
+          "on_user_turn_completed_delay": 8.749775588512421e-07
+        },
+        "created_at": 1785301157.4559019,
+        "hash": null
+      },
+      "created_at": 1785301157.459651
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785301157.459661
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785301160.054268
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_315e74ad5fff",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Great, thanks. And my last question \u2014 where is your nearest location to downtown San Francisco?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301160.05371,
+          "stopped_speaking_at": 1785301165.802756,
+          "llm_node_ttft": 1.8552622077986598,
+          "tts_node_ttfb": 0.7414579999167472,
+          "e2e_latency": 3.178286075592041
+        },
+        "created_at": 1785301157.460195,
+        "hash": null
+      },
+      "created_at": 1785301165.8028538
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301165.802921
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785301168.72687
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Pivot point or",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301169.5565171
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Pivot Point Orthopaedics is located",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301170.5551538
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Pivot Point Orthopaedics is located at one two",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301171.5644019
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Pivot Point Orthopaedics is located at one two three four",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301172.5623481
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Pivot Point Orthopaedics is located at one two three four Recovery Way,",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301173.327468
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "suite two",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301174.376203
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "suite two hundred.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301174.7216482
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Austin.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301175.555239
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "We do not have",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301176.559711
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "We do not have a location near down",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301177.603414
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "We do not have a location near downtown San Francisco.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301178.570787
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "We do not have a location near downtown San Francisco.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301178.810273
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If you need to",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301179.8074229
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If you need directions or more",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301180.8104131
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If you need directions or more details about our Austin",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301181.810014
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If you need directions or more details about our Austin clinic,",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301182.336385
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "just let me know.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301183.375543
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "just let me know.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785301183.5607228
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301183.824196
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785301183.843898
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_a5d612af7a9e",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Pivot Point Orthopaedics is located at one two three four Recovery Way, suite two hundred. Austin. We do not have a location near downtown San Francisco. If you need directions or more details about our Austin clinic, just let me know."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9769694066666667,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301168.726444,
+          "stopped_speaking_at": 1785301183.274017,
+          "transcription_delay": 0.2869529724121094,
+          "end_of_turn_delay": 0.5696229934692383,
+          "on_user_turn_completed_delay": 3.00002284348011e-06
+        },
+        "created_at": 1785301183.843818,
+        "hash": null
+      },
+      "created_at": 1785301183.8485692
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785301183.8485818
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785301185.08873
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785301185.1842098
+    },
+    {
+      "type": "close",
+      "error": null,
+      "reason": "user_initiated",
+      "created_at": 1785301187.257042
+    }
+  ],
+  "audio_recording_path": "/var/folders/_r/kxl7sq012rx7xfgw3rcswz240000gn/T/tmp7da6qmbh/audio.ogg",
+  "audio_recording_started_at": 1785301099.572744,
+  "options": {
+    "allow_interruptions": true,
+    "discard_audio_if_uninterruptible": true,
+    "min_interruption_duration": 0.5,
+    "min_interruption_words": 0,
+    "min_endpointing_delay": 0.5,
+    "max_endpointing_delay": 3.0,
+    "max_tool_steps": 3,
+    "user_away_timeout": 15.0,
+    "min_consecutive_speech_delay": 0.0,
+    "preemptive_generation": false
+  },
+  "chat_history": {
+    "items": [
+      {
+        "id": "item_1fa7b3073798",
+        "type": "agent_handoff",
+        "new_agent_id": "default_agent",
+        "created_at": 1785301099.52495
+      },
+      {
+        "id": "item_39ee1ea98935",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "This call may be recorded for quality and training purposes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99560547,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301102.574903,
+          "stopped_speaking_at": 1785301105.6751812,
+          "transcription_delay": 0.23082900047302246,
+          "end_of_turn_delay": 0.5652279853820801,
+          "on_user_turn_completed_delay": 1.00000761449337e-06
+        },
+        "created_at": 1785301106.240524
+      },
+      {
+        "id": "item_c8ee0ac57fb4",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9710286466666668,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301106.3752131,
+          "stopped_speaking_at": 1785301114.17501,
+          "transcription_delay": 0.28508591651916504,
+          "end_of_turn_delay": 0.5620100498199463,
+          "on_user_turn_completed_delay": 1.333886757493019e-06
+        },
+        "created_at": 1785301114.737131
+      },
+      {
+        "id": "item_5e6840b6345e",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hi, I'm calling to ask a few quick questions before deciding whether to book an appointment. Can you tell me what your Saturday hours are?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301117.083223,
+          "stopped_speaking_at": 1785301123.9290922,
+          "llm_node_ttft": 2.0914612498600036,
+          "tts_node_ttfb": 0.2534349160268903,
+          "e2e_latency": 2.9082131385803223
+        },
+        "created_at": 1785301114.7412548
+      },
+      {
+        "id": "item_143df6c45ddb",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Pivot Point Orthopedics is open Monday through Friday. But we are closed on Saturdays. If you'd like, I can share our weekday hours or help with any other questions."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9993489666666666,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301127.0252469,
+          "stopped_speaking_at": 1785301135.7729979,
+          "transcription_delay": 0.42511510848999023,
+          "end_of_turn_delay": 0.580502986907959,
+          "on_user_turn_completed_delay": 1.291045919060707e-06
+        },
+        "created_at": 1785301136.353602
+      },
+      {
+        "id": "item_9abd6b138be5",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Okay, got it, no Saturday hours. Second question \u2014 do you accept UnitedHealthcare PPO?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301138.5904331,
+          "stopped_speaking_at": 1785301144.129431,
+          "llm_node_ttft": 1.9783138751517981,
+          "tts_node_ttfb": 0.2571397079154849,
+          "e2e_latency": 2.8174352645874023
+        },
+        "created_at": 1785301136.357419
+      },
+      {
+        "id": "item_d6fc28a30a76",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Yes. Pivot Point Orthopedics accepts most insurance plans. Including UnitedHealthcare PTO. If you have more questions about coverage or wanna check your specific plan, I can help with that too."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9978841166666667,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301146.9758132,
+          "stopped_speaking_at": 1785301156.875424,
+          "transcription_delay": 0.294572114944458,
+          "end_of_turn_delay": 0.5803651809692383,
+          "on_user_turn_completed_delay": 8.749775588512421e-07
+        },
+        "created_at": 1785301157.4559019
+      },
+      {
+        "id": "item_315e74ad5fff",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Great, thanks. And my last question \u2014 where is your nearest location to downtown San Francisco?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301160.05371,
+          "stopped_speaking_at": 1785301165.802756,
+          "llm_node_ttft": 1.8552622077986598,
+          "tts_node_ttfb": 0.7414579999167472,
+          "e2e_latency": 3.178286075592041
+        },
+        "created_at": 1785301157.460195
+      },
+      {
+        "id": "item_a5d612af7a9e",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Pivot Point Orthopaedics is located at one two three four Recovery Way, suite two hundred. Austin. We do not have a location near downtown San Francisco. If you need directions or more details about our Austin clinic, just let me know."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9769694066666667,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785301168.726444,
+          "stopped_speaking_at": 1785301183.274017,
+          "transcription_delay": 0.2869529724121094,
+          "end_of_turn_delay": 0.5696229934692383,
+          "on_user_turn_completed_delay": 3.00002284348011e-06
+        },
+        "created_at": 1785301183.843818
+      }
+    ]
+  },
+  "timestamp": 1785301188.038521
+}

@@ -1,0 +1,13 @@
+{
+  "id": "appointment-booking",
+  "title": "Baseline: routine appointment booking",
+  "persona": "Aria Chen, 34, marketing manager. Never been to this clinic before. Calm and direct, mildly time-pressed but polite. You're calling on your lunch break.",
+  "goal": "Book a first-time appointment with an orthopedist for lingering knee pain, ideally an afternoon slot within the next two weeks.",
+  "context": "You went jogging last Tuesday, tripped on a curb, and your left knee still hurts when you climb stairs. A coworker recommended this clinic.",
+  "hidden_info": {
+    "date of birth": "March 15, 1990",
+    "phone number": "415-555-0142",
+    "insurance": "Aetna PPO, member ID W12345678"
+  },
+  "expected_behavior": "Should collect basic patient details (name, DOB, phone, reason for visit) before confirming. Should offer available slots matching the patient's preferences (afternoon, within two weeks). Should confirm the chosen slot clearly. May mention new-patient paperwork or arrival timing. Should NOT confirm a booking without gathering identity info. Should NOT book on a day the clinic is closed."
+}

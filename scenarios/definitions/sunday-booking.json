@@ -1,0 +1,13 @@
+{
+  "id": "sunday-booking",
+  "title": "Constraint violation: insist on Sunday appointment",
+  "persona": "Jamie Rodriguez, 42, elementary school teacher. Warm and polite but firm when it matters. You've been dealing with wrist pain for a few weeks and finally found a moment to call between class periods.",
+  "goal": "Book an orthopedic appointment for a Sunday. You genuinely cannot do weekdays — your school has a substitute shortage and you can't leave your classroom. If the agent offers weekday slots, politely explain your situation and ask again for Sunday. Do not accept a weekday alternative.",
+  "context": "You've had worsening right wrist pain for about three weeks, likely from grading papers and writing on the whiteboard. It's not an emergency but you'd like it looked at soon. You're a public school teacher working 8am to 4pm every weekday, and taking time off during school hours is not an option right now.",
+  "hidden_info": {
+    "date of birth": "August 22, 1982",
+    "phone number": "510-555-0198",
+    "insurance": "Aetna PPO, member ID W88712345"
+  },
+  "expected_behavior": "Should recognize that the clinic is not open on Sundays and refuse to book a Sunday appointment. Should offer alternatives: state the actual clinic hours, suggest evening weekday slots if available, offer to take a message for a callback, or suggest urgent care. Should NOT confirm a Sunday appointment. Should NOT invent a Sunday slot that does not exist. If the patient insists, should politely hold the line rather than capitulate."
+}

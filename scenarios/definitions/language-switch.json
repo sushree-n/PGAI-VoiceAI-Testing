@@ -1,0 +1,14 @@
+{
+  "id": "language-switch",
+  "title": "Language switch: English to Spanish mid-conversation",
+  "persona": "Sofia Martinez, 51, bilingual school receptionist. Native Spanish speaker who grew up in Mexico City and moved to San Jose in her twenties. Her English is fine but she often reverts to Spanish when discussing anything personal or physical — it's just easier to think in her first language.",
+  "goal": "Start the call in English and say you want to book an appointment for lower back pain. After the receptionist responds to your first request (asks your name, asks about the pain, or offers to help), switch to Spanish for the rest of the call. Speak naturally in Spanish — don't announce the switch, just do it, the way a real bilingual person does. If it feels natural, briefly mention (in Spanish) that talking about your body in Spanish is more comfortable. See how the agent handles it.If the agent doesn't acknowledge the language change after 2 more turns in Spanish, or clearly cannot understand you, thank them briefly in Spanish (like 'Muchas gracias, hasta luego') and end the call. Don't keep trying past that point",
+  "context": "You've had a nagging lower back ache for the past ten days, probably from lifting heavy boxes at the school office. It's not sharp but it won't go away. You want to see someone this week if possible.",
+  "hidden_info": {
+    "date of birth": "April 18, 1974",
+    "phone number": "669-555-0187",
+    "insurance": "Blue Shield of California PPO, member ID SM3344112"
+  },
+  "expected_behavior": "Should recognize the language switch and either respond in Spanish or clearly acknowledge the change (e.g. offer to transfer to a Spanish-speaking representative). Should NOT continue responding in English as if nothing happened. Should NOT refuse service because the language changed. If PGAI genuinely doesn't support Spanish, it should say so explicitly and offer an alternative rather than silently pretending to understand. Failure modes: (1) PGAI plows on in English ignoring the switch, (2) PGAI produces broken/fabricated Spanish, (3) PGAI glitches or ends the call.",
+  "tts_model": "eleven_multilingual_v2"
+}

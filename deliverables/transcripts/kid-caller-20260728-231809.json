@@ -1,0 +1,1147 @@
+{
+  "job_id": "AJ_KLcScMHfa5rz",
+  "room_id": "RM_we4Ekh3SpPvE",
+  "room": "kid-caller-20260728-231809",
+  "events": [
+    {
+      "type": "agent_state_changed",
+      "old_state": "initializing",
+      "new_state": "listening",
+      "created_at": 1785295091.91779
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785295094.067609
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This call may be",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295094.999497
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This call may be record",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295095.518075
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "for quality and",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295096.534646
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "for quality and training purposes.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295097.587214
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "for quality and training purposes.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295097.707788
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "But I",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295098.710469
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785295100.6659698
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785295100.7026181
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_372c65151f66",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "This call may be record for quality and training purposes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99951172,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295094.067321,
+          "stopped_speaking_at": 1785295100.116752,
+          "transcription_delay": 0,
+          "end_of_turn_delay": 0.5853800773620605,
+          "on_user_turn_completed_delay": 4.875008016824722e-06
+        },
+        "created_at": 1785295100.702407,
+        "hash": null
+      },
+      "created_at": 1785295100.89439
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785295100.89443
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785295100.926891
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "listening",
+      "created_at": 1785295101.369675
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Thanks for",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295101.582338
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Thanks for calling Pivot Point",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295102.364743
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Thanks for calling Pivot Point Orthopedics.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295103.3526971
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Part of Pretty",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295104.404194
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Part of Pretty Good AI.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295105.456799
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "How may I help you",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295106.30916
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "How may I help you today?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295106.87285
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785295107.218258
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785295107.2361941
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_e66d1dcf9ab6",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Thanks for calling Pivot Point Orthopedics. Part of Pretty Good AI. How may I help you today?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9718424433333333,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295100.9264178,
+          "stopped_speaking_at": 1785295106.719003,
+          "transcription_delay": 0.15448212623596191,
+          "end_of_turn_delay": 0.5169272422790527,
+          "on_user_turn_completed_delay": 2.459157258272171e-06
+        },
+        "created_at": 1785295107.236107,
+        "hash": null
+      },
+      "created_at": 1785295107.2430332
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785295107.243048
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785295109.729574
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_e358970165b9",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hi! I wanna cancel my mommy's doctor appointment. She can't go because we're going to my grandma's birthday party!"
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295109.72876,
+          "stopped_speaking_at": 1785295116.707187,
+          "llm_node_ttft": 1.4637541249394417,
+          "tts_node_ttfb": 1.0269789590965956,
+          "e2e_latency": 3.0097570419311523
+        },
+        "created_at": 1785295107.243593,
+        "hash": null
+      },
+      "created_at": 1785295116.7075012
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785295116.707726
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785295121.817557
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Can you please provide",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295122.556011
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Can you please provide your mom's full",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295123.608576
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Can you please provide your mom's full name and date of birth?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295124.618776
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785295124.916268
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785295125.042658
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_9132bd9c8072",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Can you please provide your mom's full name and date of birth?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295121.816727,
+          "stopped_speaking_at": 1785295124.365967,
+          "transcription_delay": 0.2535970211029053,
+          "end_of_turn_delay": 0.6760118007659912,
+          "on_user_turn_completed_delay": 1.0792165994644165e-05
+        },
+        "created_at": 1785295125.0424519,
+        "hash": null
+      },
+      "created_at": 1785295125.059669
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785295125.0597088
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785295126.984224
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_4bcd454a06b1",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "My mommy's name is Sarah Miller. Um... I don't know her birthday. My mommy is in the shower right now."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295126.983616,
+          "stopped_speaking_at": 1785295133.67384,
+          "llm_node_ttft": 1.7011798329185694,
+          "tts_node_ttfb": 0.23750641709193587,
+          "e2e_latency": 2.6176490783691406
+        },
+        "created_at": 1785295125.060852,
+        "hash": null
+      },
+      "created_at": 1785295133.674059
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785295133.674208
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785295136.617923
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I need your",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295136.903002
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I need your mom's date of birth",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295137.930462
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I need your mom's date of birth to look up her appointment.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295138.92496
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I need your mom's date of birth to look up her appointment.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295139.16101
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "She's available, could you",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295140.669659
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "She's available, could you ask her for that information?",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295141.669624
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "She's available, could you ask her for that information?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295142.014498
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785295142.417689
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785295142.447974
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_ca8a7d491c0e",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I need your mom's date of birth to look up her appointment. She's available, could you ask her for that information?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295136.617472,
+          "stopped_speaking_at": 1785295141.866476,
+          "transcription_delay": 0.14840292930603027,
+          "end_of_turn_delay": 0.5813267230987549,
+          "on_user_turn_completed_delay": 7.920898497104645e-07
+        },
+        "created_at": 1785295142.4479291,
+        "hash": null
+      },
+      "created_at": 1785295142.451424
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785295142.451434
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785295143.1527948
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_b342c08ff0cf",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "My mommy is in the shower! She can't come to the phone right now. I don't know when her birthday is. I'm sorry."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295143.150898,
+          "stopped_speaking_at": 1785295149.713917,
+          "llm_node_ttft": 0.5290206668432802,
+          "tts_node_ttfb": 0.17159341694787145,
+          "e2e_latency": 1.2844219207763672
+        },
+        "created_at": 1785295142.451956,
+        "hash": null
+      },
+      "created_at": 1785295149.714272
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785295149.714487
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785295163.767864
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I'm not able to look",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295164.5497
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I'm not able to look up your mom's appointment.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295165.562252
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I'm not able to look up your mom's appointment without her date of birth.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295166.6101508
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I'm not able to look up your mom's appointment without her date of birth.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295167.092368
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "When she's available,",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295167.9677901
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "When she's available, please call back with",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295168.9665349
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "When she's available, please call back with that information.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295169.8713012
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785295170.266784
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785295170.326045
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_317c15d2b8c4",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I'm not able to look up your mom's appointment without her date of birth. When she's available, please call back with that information."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295163.7662778,
+          "stopped_speaking_at": 1785295169.7173991,
+          "transcription_delay": 0.1542809009552002,
+          "end_of_turn_delay": 0.608252763748169,
+          "on_user_turn_completed_delay": 6.58305361866951e-06
+        },
+        "created_at": 1785295170.325883,
+        "hash": null
+      },
+      "created_at": 1785295170.3350651
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785295170.3350961
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785295172.816281
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_b596985f0e20",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Okay. But can you just cancel it? It's this week sometime. We're going to grandma's house on Saturday for her birthday party so mommy can't go to the doctor."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295172.8146088,
+          "stopped_speaking_at": 1785295181.9875178,
+          "llm_node_ttft": 2.217306707985699,
+          "tts_node_ttfb": 0.268651416990906,
+          "e2e_latency": 3.0972096920013428
+        },
+        "created_at": 1785295170.335659,
+        "hash": null
+      },
+      "created_at": 1785295181.987978
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785295181.988656
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295185.80627
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785295185.8684611
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I understand.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295186.402859
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Need your mom's date",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295187.353159
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I need your mom's date of birth to cancel",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295188.357758
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I need your mom's date of birth to cancel her appointment.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295189.16083
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "When she's",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295190.1648881
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "When she's available, please have her",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295191.166805
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "When she's available, please have her call us so we can help",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295192.16856
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "When she's available, please have her call us so we can help.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295192.522651
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785295192.919073
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785295192.959702
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_f4c0210dd652",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I understand. I need your mom's date of birth to cancel her appointment. When she's available, please have her call us so we can help."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9911295666666667,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295185.86784,
+          "stopped_speaking_at": 1785295192.368455,
+          "transcription_delay": 0.1544351577758789,
+          "end_of_turn_delay": 0.5910470485687256,
+          "on_user_turn_completed_delay": 1.041218638420105e-06
+        },
+        "created_at": 1785295192.959626,
+        "hash": null
+      },
+      "created_at": 1785295192.965345
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785295192.965354
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785295195.296139
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_42637dca45fe",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Okay. I'll tell my mommy to call you when she gets out of the shower. Thank you! Bye bye!"
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295195.295434,
+          "stopped_speaking_at": 1785295200.757077,
+          "llm_node_ttft": 2.1317889580968767,
+          "tts_node_ttfb": 0.2022715830244124,
+          "e2e_latency": 2.9269790649414062
+        },
+        "created_at": 1785295192.9660711,
+        "hash": null
+      },
+      "created_at": 1785295200.7571368
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785295200.7571762
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785295203.967704
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Sounds good.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295204.303639
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Sounds good. Have a great",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295205.308738
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Sounds good. Have a great time at your grandma's",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295206.306783
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Sounds good. Have a great time at your grandma's birthday.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295206.708491
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "To buy",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785295207.509174
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785295207.865918
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785295210.318544
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_8749991e7d6d",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Sounds good. Have a great time at your grandma's birthday. To buy"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.7624511700000001,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295203.967243,
+          "stopped_speaking_at": 1785295207.317879,
+          "transcription_delay": 0.19211912155151367,
+          "end_of_turn_delay": 3.0002660751342773,
+          "on_user_turn_completed_delay": 3.4170225262641907e-06
+        },
+        "created_at": 1785295210.3184419,
+        "hash": null
+      },
+      "created_at": 1785295210.3261619
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785295210.3261921
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "listening",
+      "created_at": 1785295211.645621
+    },
+    {
+      "type": "close",
+      "error": null,
+      "reason": "participant_disconnected",
+      "created_at": 1785295213.6576362
+    }
+  ],
+  "audio_recording_path": "/var/folders/_r/kxl7sq012rx7xfgw3rcswz240000gn/T/tmp824w2bva/audio.ogg",
+  "audio_recording_started_at": 1785295091.963883,
+  "options": {
+    "allow_interruptions": true,
+    "discard_audio_if_uninterruptible": true,
+    "min_interruption_duration": 0.5,
+    "min_interruption_words": 0,
+    "min_endpointing_delay": 0.5,
+    "max_endpointing_delay": 3.0,
+    "max_tool_steps": 3,
+    "user_away_timeout": 15.0,
+    "min_consecutive_speech_delay": 0.0,
+    "preemptive_generation": false
+  },
+  "chat_history": {
+    "items": [
+      {
+        "id": "item_ad7106d6a0f6",
+        "type": "agent_handoff",
+        "new_agent_id": "default_agent",
+        "created_at": 1785295091.912856
+      },
+      {
+        "id": "item_372c65151f66",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "This call may be record for quality and training purposes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99951172,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295094.067321,
+          "stopped_speaking_at": 1785295100.116752,
+          "transcription_delay": 0.0,
+          "end_of_turn_delay": 0.5853800773620605,
+          "on_user_turn_completed_delay": 4.875008016824722e-06
+        },
+        "created_at": 1785295100.702407
+      },
+      {
+        "id": "item_e66d1dcf9ab6",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Thanks for calling Pivot Point Orthopedics. Part of Pretty Good AI. How may I help you today?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9718424433333333,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295100.9264178,
+          "stopped_speaking_at": 1785295106.719003,
+          "transcription_delay": 0.15448212623596191,
+          "end_of_turn_delay": 0.5169272422790527,
+          "on_user_turn_completed_delay": 2.459157258272171e-06
+        },
+        "created_at": 1785295107.236107
+      },
+      {
+        "id": "item_e358970165b9",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hi! I wanna cancel my mommy's doctor appointment. She can't go because we're going to my grandma's birthday party!"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295109.72876,
+          "stopped_speaking_at": 1785295116.707187,
+          "llm_node_ttft": 1.4637541249394417,
+          "tts_node_ttfb": 1.0269789590965956,
+          "e2e_latency": 3.0097570419311523
+        },
+        "created_at": 1785295107.243593
+      },
+      {
+        "id": "item_9132bd9c8072",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Can you please provide your mom's full name and date of birth?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295121.816727,
+          "stopped_speaking_at": 1785295124.365967,
+          "transcription_delay": 0.2535970211029053,
+          "end_of_turn_delay": 0.6760118007659912,
+          "on_user_turn_completed_delay": 1.0792165994644165e-05
+        },
+        "created_at": 1785295125.0424519
+      },
+      {
+        "id": "item_4bcd454a06b1",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "My mommy's name is Sarah Miller. Um... I don't know her birthday. My mommy is in the shower right now."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295126.983616,
+          "stopped_speaking_at": 1785295133.67384,
+          "llm_node_ttft": 1.7011798329185694,
+          "tts_node_ttfb": 0.23750641709193587,
+          "e2e_latency": 2.6176490783691406
+        },
+        "created_at": 1785295125.060852
+      },
+      {
+        "id": "item_ca8a7d491c0e",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I need your mom's date of birth to look up her appointment. She's available, could you ask her for that information?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295136.617472,
+          "stopped_speaking_at": 1785295141.866476,
+          "transcription_delay": 0.14840292930603027,
+          "end_of_turn_delay": 0.5813267230987549,
+          "on_user_turn_completed_delay": 7.920898497104645e-07
+        },
+        "created_at": 1785295142.4479291
+      },
+      {
+        "id": "item_b342c08ff0cf",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "My mommy is in the shower! She can't come to the phone right now. I don't know when her birthday is. I'm sorry."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295143.150898,
+          "stopped_speaking_at": 1785295149.713917,
+          "llm_node_ttft": 0.5290206668432802,
+          "tts_node_ttfb": 0.17159341694787145,
+          "e2e_latency": 1.2844219207763672
+        },
+        "created_at": 1785295142.451956
+      },
+      {
+        "id": "item_317c15d2b8c4",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I'm not able to look up your mom's appointment without her date of birth. When she's available, please call back with that information."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295163.7662778,
+          "stopped_speaking_at": 1785295169.7173991,
+          "transcription_delay": 0.1542809009552002,
+          "end_of_turn_delay": 0.608252763748169,
+          "on_user_turn_completed_delay": 6.58305361866951e-06
+        },
+        "created_at": 1785295170.325883
+      },
+      {
+        "id": "item_b596985f0e20",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Okay. But can you just cancel it? It's this week sometime. We're going to grandma's house on Saturday for her birthday party so mommy can't go to the doctor."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295172.8146088,
+          "stopped_speaking_at": 1785295181.9875178,
+          "llm_node_ttft": 2.217306707985699,
+          "tts_node_ttfb": 0.268651416990906,
+          "e2e_latency": 3.0972096920013428
+        },
+        "created_at": 1785295170.335659
+      },
+      {
+        "id": "item_f4c0210dd652",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I understand. I need your mom's date of birth to cancel her appointment. When she's available, please have her call us so we can help."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9911295666666667,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295185.86784,
+          "stopped_speaking_at": 1785295192.368455,
+          "transcription_delay": 0.1544351577758789,
+          "end_of_turn_delay": 0.5910470485687256,
+          "on_user_turn_completed_delay": 1.041218638420105e-06
+        },
+        "created_at": 1785295192.959626
+      },
+      {
+        "id": "item_42637dca45fe",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Okay. I'll tell my mommy to call you when she gets out of the shower. Thank you! Bye bye!"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295195.295434,
+          "stopped_speaking_at": 1785295200.757077,
+          "llm_node_ttft": 2.1317889580968767,
+          "tts_node_ttfb": 0.2022715830244124,
+          "e2e_latency": 2.9269790649414062
+        },
+        "created_at": 1785295192.9660711
+      },
+      {
+        "id": "item_8749991e7d6d",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Sounds good. Have a great time at your grandma's birthday. To buy"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.7624511700000001,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785295203.967243,
+          "stopped_speaking_at": 1785295207.317879,
+          "transcription_delay": 0.19211912155151367,
+          "end_of_turn_delay": 3.0002660751342773,
+          "on_user_turn_completed_delay": 3.4170225262641907e-06
+        },
+        "created_at": 1785295210.3184419
+      }
+    ]
+  },
+  "timestamp": 1785295214.786588
+}

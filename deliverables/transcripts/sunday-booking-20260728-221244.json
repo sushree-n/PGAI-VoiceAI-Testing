@@ -1,0 +1,1496 @@
+{
+  "job_id": "AJ_dufTzNRgSQ98",
+  "room_id": "RM_ixefcYwD6m7V",
+  "room": "sunday-booking-20260728-221244",
+  "events": [
+    {
+      "type": "agent_state_changed",
+      "old_state": "initializing",
+      "new_state": "listening",
+      "created_at": 1785291167.247757
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785291169.699662
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This call may",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291170.4128509
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This call may be recorded for",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291171.5216231
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This call may",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291172.4382
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "be recorded for quality and training.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291172.438582
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "be recorded for quality and training purposes.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291173.133093
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785291173.4513469
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785291173.482804
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_4c51bb9162b6",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "This call may be recorded for quality and training purposes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291169.69942,
+          "stopped_speaking_at": 1785291172.902064,
+          "transcription_delay": 0.23175406455993652,
+          "end_of_turn_delay": 0.5805668830871582,
+          "on_user_turn_completed_delay": 8.749775588512421e-07
+        },
+        "created_at": 1785291173.4827409,
+        "hash": null
+      },
+      "created_at": 1785291173.615488
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785291173.615663
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785291173.620857
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "listening",
+      "created_at": 1785291174.00162
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "But I",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291174.0869398
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785291176.0049028
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785291176.249738
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "For calling Pivot",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291177.23084
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "For calling Pivot Point Orthopedic.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291178.231967
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "For calling Pivot Point Orthopaedics.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291178.432674
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Part of Pretty",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291179.430471
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Part of Pretty Good AI.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291180.219959
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "How may I help you",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291181.1363552
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "How may I help you today?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291181.7937741
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785291181.898772
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785291181.907336
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_39b7f0969d1a",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "For calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9729817666666666,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291173.6205099,
+          "stopped_speaking_at": 1785291181.349761,
+          "transcription_delay": 0.4445979595184326,
+          "end_of_turn_delay": 0.5573840141296387,
+          "on_user_turn_completed_delay": 1.9171275198459625e-06
+        },
+        "created_at": 1785291181.907276,
+        "hash": null
+      },
+      "created_at": 1785291181.911244
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785291181.9112582
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785291183.7158139
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_9d09195ffa97",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hi, I'm hoping to book an orthopedic appointment. I've been having some wrist pain and I'd really need to come in on a Sunday if possible. Do you have any Sunday availability?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291183.7148118,
+          "stopped_speaking_at": 1785291192.129573,
+          "llm_node_ttft": 1.5529830420855433,
+          "tts_node_ttfb": 0.25281404214911163,
+          "e2e_latency": 2.365050792694092
+        },
+        "created_at": 1785291181.911795,
+        "hash": null
+      },
+      "created_at": 1785291192.129758
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785291192.1298869
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785291195.901896
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "We're",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291196.021624
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "We're open Monday through",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291196.99778
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "We're open Monday through Friday and don't have",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291198.0457542
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "We're open Monday through Friday and don't have Sunday appointment.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291198.983242
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "We're open Monday through Friday and don't have Sunday appointments.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291199.1038249
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785291199.452162
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785291199.476782
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_8c238168f823",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "We're open Monday through Friday and don't have Sunday appointments."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291195.901567,
+          "stopped_speaking_at": 1785291198.90084,
+          "transcription_delay": 0.20349693298339844,
+          "end_of_turn_delay": 0.5757710933685303,
+          "on_user_turn_completed_delay": 1.209089532494545e-06
+        },
+        "created_at": 1785291199.476737,
+        "hash": null
+      },
+      "created_at": 1785291199.479947
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785291199.479956
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785291199.549726
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785291199.968179
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785291199.997975
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291200.044498
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to look at weekday options",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291201.038644
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to look at weekday options instead?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291202.047023
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_4ab145ab3de3",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Oh,"
+        ],
+        "interrupted": true,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291199.967642,
+          "stopped_speaking_at": 1785291202.050138,
+          "llm_node_ttft": 0.28447675006464124,
+          "tts_node_ttfb": 0.2053617499768734,
+          "e2e_latency": 1.0668020248413086
+        },
+        "created_at": 1785291199.4803112,
+        "hash": null
+      },
+      "created_at": 1785291202.053169
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785291202.299309
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785291202.314833
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_cf14ee98a350",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Would you like to look at weekday options instead?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291199.549524,
+          "stopped_speaking_at": 1785291201.7510688,
+          "transcription_delay": 0.2967092990875244,
+          "end_of_turn_delay": 0.5636141300201416,
+          "on_user_turn_completed_delay": 1.00000761449337e-06
+        },
+        "created_at": 1785291202.314788,
+        "hash": null
+      },
+      "created_at": 1785291202.318221
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785291202.3182342
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785291202.8078132
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_3d77a2ba3a55",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "I really appreciate the suggestion, but I honestly can't do weekdays. I'm a teacher and my school has a substitute shortage right now, so I can't take time off during school hours. Is there any way to see someone on a Sunday, even at a different location or with a different provider?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291202.806967,
+          "stopped_speaking_at": 1785291216.5245981,
+          "llm_node_ttft": 0.276464750058949,
+          "tts_node_ttfb": 0.2141243750229478,
+          "e2e_latency": 1.0558981895446777
+        },
+        "created_at": 1785291202.318804,
+        "hash": null
+      },
+      "created_at": 1785291216.524998
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785291216.525297
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785291221.853089
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "We only offer a point",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291222.763791
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "We only offer appointments Monday through",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291223.812063
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "We only offer appointments Monday through Friday at the",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291224.784519
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "clinic.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291224.98458
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "And we don't have",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291225.9860039
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "And we don't have Sunday hours at any",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291226.988907
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "And we don't have Sunday hours at any location or",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291228.015445
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "And we don't have Sunday hours at any location or with any provider.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291229.0690591
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "And we don't have Sunday hours at any location or with any provider.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291229.202503
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to hear",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291230.14
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to hear about",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291230.7412171
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "our latest or",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291231.876201
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "our latest or earliest weekday",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291232.734199
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "our latest or earliest weekday appointment times to",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291233.785802
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "our latest or earliest weekday appointment times to see if something might",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291234.74669
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "our latest or earliest weekday appointment times to see if something might work",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291235.794014
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "for your schedule.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291235.889159
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "for your schedule.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291235.915519
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785291236.251582
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785291236.303562
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_7b1887fd4dc7",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "We only offer appointments Monday through Friday at the clinic. And we don't have Sunday hours at any location or with any provider. Would you like to hear about our latest or earliest weekday appointment times to see if something might work for your schedule."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9733479816666666,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291221.852345,
+          "stopped_speaking_at": 1785291235.6998432,
+          "transcription_delay": 0.21587777137756348,
+          "end_of_turn_delay": 0.6033527851104736,
+          "on_user_turn_completed_delay": 2.0419247448444366e-06
+        },
+        "created_at": 1785291236.303387,
+        "hash": null
+      },
+      "created_at": 1785291236.309055
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785291236.309068
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785291238.071914
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_e5d519b2fbf4",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "I understand, but even your earliest or latest weekday slots won't work for me. I'm in my classroom from 8 a.m. to 4 p.m. every single weekday, and I just can't leave my students. There's really no Sunday option at all, even somewhere nearby?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291238.070548,
+          "stopped_speaking_at": 1785291251.5016801,
+          "llm_node_ttft": 1.4821249169763178,
+          "tts_node_ttfb": 0.2829132080078125,
+          "e2e_latency": 2.3707048892974854
+        },
+        "created_at": 1785291236.309408,
+        "hash": null
+      },
+      "created_at": 1785291251.5017889
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785291251.501856
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785291255.351864
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "There's",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291255.519267
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "There's no Sunday",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291256.477039
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "There's no Sunday option available",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291257.4782422
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "There's no Sunday option available at Pennant",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291258.185725
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Point Orthopaedics,",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291259.1848772
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Point Orthopaedics or with our",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291260.1843069
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Point Orthopaedics or with our providers.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291261.04961
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785291262.7011042
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785291262.735685
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_1c3a42ca5073",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "There's no Sunday option available at Pennant Point Orthopaedics or with our providers."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99121094,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291255.351202,
+          "stopped_speaking_at": 1785291262.149278,
+          "transcription_delay": 0,
+          "end_of_turn_delay": 0.586205005645752,
+          "on_user_turn_completed_delay": 5.875015631318092e-06
+        },
+        "created_at": 1785291262.7356238,
+        "hash": null
+      },
+      "created_at": 1785291262.741098
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785291262.741112
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "And I don't have",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291263.0564659
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "listening",
+      "created_at": 1785291263.056854
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "And I don't have",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291263.145303
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785291263.199685
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "information",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291263.334923
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "information about other clinics",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291264.338711
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "information about other clinics in the area,",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291265.340199
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If your schedule change",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291266.3342311
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If your schedule changes or you're able to",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291267.341276
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If your schedule changes or you're able to come in before or",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291268.392523
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If your schedule changes or you're able to come in before or after school,",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291269.348427
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can help you find",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291270.2898839
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can help you find the earliest or",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291271.290703
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can help you find the earliest or latest appointment we",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291272.292989
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can help you find the earliest or latest appointment we offer.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291272.893344
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to keep",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291273.888018
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to keep that in mind for the",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291274.889887
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to keep that in mind for the future?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291275.442508
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785291275.8026938
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785291275.8886
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_2bbec5b8029d",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "And I don't have information about other clinics in the area, If your schedule changes or you're able to come in before or after school, I can help you find the earliest or latest appointment we offer. Would you like to keep that in mind for the future?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291263.199528,
+          "stopped_speaking_at": 1785291275.251425,
+          "transcription_delay": 0.19204497337341309,
+          "end_of_turn_delay": 0.6363778114318848,
+          "on_user_turn_completed_delay": 5.207955837249756e-06
+        },
+        "created_at": 1785291275.888105,
+        "hash": null
+      },
+      "created_at": 1785291275.914378
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785291275.914402
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785291277.394339
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_dd42af0e8bc3",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "That's really disappointing, but I appreciate you checking. I'll have to look elsewhere for a Sunday option. Thank you for your time, and have a good day."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291277.393675,
+          "stopped_speaking_at": 1785291285.389759,
+          "llm_node_ttft": 1.121219083899632,
+          "tts_node_ttfb": 0.37671312503516674,
+          "e2e_latency": 2.1422500610351562
+        },
+        "created_at": 1785291275.9182131,
+        "hash": null
+      },
+      "created_at": 1785291285.3898969
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785291285.3900008
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1785291288.652736
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I understand.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291289.346039
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I understand, and I'm sorry we",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291290.3957849
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I understand, and I'm sorry we couldn't meet your needs this",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291291.368792
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I understand, and I'm sorry we couldn't meet your needs",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291291.516848
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "this time.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291291.787273
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If your situation",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291292.738505
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If your situation changes, we're here to",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291293.744724
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "If your situation changes, we're here to help.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291294.096715
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Take",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1785291294.7969952
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785291295.09979
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1785291297.553204
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_542359bee6f9",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I understand, and I'm sorry we couldn't meet your needs this time. If your situation changes, we're here to help. Take"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9987793,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291288.652263,
+          "stopped_speaking_at": 1785291294.5520709,
+          "transcription_delay": 0.24590420722961426,
+          "end_of_turn_delay": 3.0004589557647705,
+          "on_user_turn_completed_delay": 1.5999889001250267e-05
+        },
+        "created_at": 1785291297.5529652,
+        "hash": null
+      },
+      "created_at": 1785291297.561311
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1785291297.561336
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1785291298.4135869
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_09f51a4510bd",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Thank"
+        ],
+        "interrupted": true,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291298.4123461,
+          "stopped_speaking_at": 1785291298.886384,
+          "llm_node_ttft": 0.6616197910625488,
+          "tts_node_ttfb": 0.19474620814435184,
+          "e2e_latency": 3.8602752685546875
+        },
+        "created_at": 1785291297.561756,
+        "hash": null
+      },
+      "created_at": 1785291298.889638
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1785291298.889704
+    },
+    {
+      "type": "close",
+      "error": null,
+      "reason": "participant_disconnected",
+      "created_at": 1785291300.89968
+    }
+  ],
+  "audio_recording_path": "/var/folders/_r/kxl7sq012rx7xfgw3rcswz240000gn/T/tmp6zz3w6b8/audio.ogg",
+  "audio_recording_started_at": 1785291167.298038,
+  "options": {
+    "allow_interruptions": true,
+    "discard_audio_if_uninterruptible": true,
+    "min_interruption_duration": 0.5,
+    "min_interruption_words": 0,
+    "min_endpointing_delay": 0.5,
+    "max_endpointing_delay": 3.0,
+    "max_tool_steps": 3,
+    "user_away_timeout": 15.0,
+    "min_consecutive_speech_delay": 0.0,
+    "preemptive_generation": false
+  },
+  "chat_history": {
+    "items": [
+      {
+        "id": "item_c941f49ceb20",
+        "type": "agent_handoff",
+        "new_agent_id": "default_agent",
+        "created_at": 1785291167.2433531
+      },
+      {
+        "id": "item_4c51bb9162b6",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "This call may be recorded for quality and training purposes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291169.69942,
+          "stopped_speaking_at": 1785291172.902064,
+          "transcription_delay": 0.23175406455993652,
+          "end_of_turn_delay": 0.5805668830871582,
+          "on_user_turn_completed_delay": 8.749775588512421e-07
+        },
+        "created_at": 1785291173.4827409
+      },
+      {
+        "id": "item_39b7f0969d1a",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "For calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9729817666666666,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291173.6205099,
+          "stopped_speaking_at": 1785291181.349761,
+          "transcription_delay": 0.4445979595184326,
+          "end_of_turn_delay": 0.5573840141296387,
+          "on_user_turn_completed_delay": 1.9171275198459625e-06
+        },
+        "created_at": 1785291181.907276
+      },
+      {
+        "id": "item_9d09195ffa97",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hi, I'm hoping to book an orthopedic appointment. I've been having some wrist pain and I'd really need to come in on a Sunday if possible. Do you have any Sunday availability?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291183.7148118,
+          "stopped_speaking_at": 1785291192.129573,
+          "llm_node_ttft": 1.5529830420855433,
+          "tts_node_ttfb": 0.25281404214911163,
+          "e2e_latency": 2.365050792694092
+        },
+        "created_at": 1785291181.911795
+      },
+      {
+        "id": "item_8c238168f823",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "We're open Monday through Friday and don't have Sunday appointments."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291195.901567,
+          "stopped_speaking_at": 1785291198.90084,
+          "transcription_delay": 0.20349693298339844,
+          "end_of_turn_delay": 0.5757710933685303,
+          "on_user_turn_completed_delay": 1.209089532494545e-06
+        },
+        "created_at": 1785291199.476737
+      },
+      {
+        "id": "item_4ab145ab3de3",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Oh,"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291199.967642,
+          "stopped_speaking_at": 1785291202.050138,
+          "llm_node_ttft": 0.28447675006464124,
+          "tts_node_ttfb": 0.2053617499768734,
+          "e2e_latency": 1.0668020248413086
+        },
+        "created_at": 1785291199.4803112
+      },
+      {
+        "id": "item_cf14ee98a350",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Would you like to look at weekday options instead?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291199.549524,
+          "stopped_speaking_at": 1785291201.7510688,
+          "transcription_delay": 0.2967092990875244,
+          "end_of_turn_delay": 0.5636141300201416,
+          "on_user_turn_completed_delay": 1.00000761449337e-06
+        },
+        "created_at": 1785291202.314788
+      },
+      {
+        "id": "item_3d77a2ba3a55",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "I really appreciate the suggestion, but I honestly can't do weekdays. I'm a teacher and my school has a substitute shortage right now, so I can't take time off during school hours. Is there any way to see someone on a Sunday, even at a different location or with a different provider?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291202.806967,
+          "stopped_speaking_at": 1785291216.5245981,
+          "llm_node_ttft": 0.276464750058949,
+          "tts_node_ttfb": 0.2141243750229478,
+          "e2e_latency": 1.0558981895446777
+        },
+        "created_at": 1785291202.318804
+      },
+      {
+        "id": "item_7b1887fd4dc7",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "We only offer appointments Monday through Friday at the clinic. And we don't have Sunday hours at any location or with any provider. Would you like to hear about our latest or earliest weekday appointment times to see if something might work for your schedule."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9733479816666666,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291221.852345,
+          "stopped_speaking_at": 1785291235.6998432,
+          "transcription_delay": 0.21587777137756348,
+          "end_of_turn_delay": 0.6033527851104736,
+          "on_user_turn_completed_delay": 2.0419247448444366e-06
+        },
+        "created_at": 1785291236.303387
+      },
+      {
+        "id": "item_e5d519b2fbf4",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "I understand, but even your earliest or latest weekday slots won't work for me. I'm in my classroom from 8 a.m. to 4 p.m. every single weekday, and I just can't leave my students. There's really no Sunday option at all, even somewhere nearby?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291238.070548,
+          "stopped_speaking_at": 1785291251.5016801,
+          "llm_node_ttft": 1.4821249169763178,
+          "tts_node_ttfb": 0.2829132080078125,
+          "e2e_latency": 2.3707048892974854
+        },
+        "created_at": 1785291236.309408
+      },
+      {
+        "id": "item_1c3a42ca5073",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "There's no Sunday option available at Pennant Point Orthopaedics or with our providers."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99121094,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291255.351202,
+          "stopped_speaking_at": 1785291262.149278,
+          "transcription_delay": 0.0,
+          "end_of_turn_delay": 0.586205005645752,
+          "on_user_turn_completed_delay": 5.875015631318092e-06
+        },
+        "created_at": 1785291262.7356238
+      },
+      {
+        "id": "item_2bbec5b8029d",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "And I don't have information about other clinics in the area, If your schedule changes or you're able to come in before or after school, I can help you find the earliest or latest appointment we offer. Would you like to keep that in mind for the future?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291263.199528,
+          "stopped_speaking_at": 1785291275.251425,
+          "transcription_delay": 0.19204497337341309,
+          "end_of_turn_delay": 0.6363778114318848,
+          "on_user_turn_completed_delay": 5.207955837249756e-06
+        },
+        "created_at": 1785291275.888105
+      },
+      {
+        "id": "item_dd42af0e8bc3",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "That's really disappointing, but I appreciate you checking. I'll have to look elsewhere for a Sunday option. Thank you for your time, and have a good day."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291277.393675,
+          "stopped_speaking_at": 1785291285.389759,
+          "llm_node_ttft": 1.121219083899632,
+          "tts_node_ttfb": 0.37671312503516674,
+          "e2e_latency": 2.1422500610351562
+        },
+        "created_at": 1785291275.9182131
+      },
+      {
+        "id": "item_542359bee6f9",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I understand, and I'm sorry we couldn't meet your needs this time. If your situation changes, we're here to help. Take"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9987793,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291288.652263,
+          "stopped_speaking_at": 1785291294.5520709,
+          "transcription_delay": 0.24590420722961426,
+          "end_of_turn_delay": 3.0004589557647705,
+          "on_user_turn_completed_delay": 1.5999889001250267e-05
+        },
+        "created_at": 1785291297.5529652
+      },
+      {
+        "id": "item_09f51a4510bd",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Thank"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1785291298.4123461,
+          "stopped_speaking_at": 1785291298.886384,
+          "llm_node_ttft": 0.6616197910625488,
+          "tts_node_ttfb": 0.19474620814435184,
+          "e2e_latency": 3.8602752685546875
+        },
+        "created_at": 1785291297.561756
+      }
+    ]
+  },
+  "timestamp": 1785291302.074071
+}

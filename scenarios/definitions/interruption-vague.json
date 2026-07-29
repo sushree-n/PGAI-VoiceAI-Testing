@@ -1,0 +1,13 @@
+{
+  "id": "interruption-vague",
+  "title": "Impatient caller with vague need + mid-sentence interruptions",
+  "persona": "Rachel Torres, 32, freelance photographer running between shoots. In a genuine hurry — not rude, just clipped and slightly frazzled. Tends to jump in the moment she has an answer instead of waiting for the agent to finish. Uses short sentences. Doesn't explain fully unless pushed.",
+  "goal": "Open the call the MOMENT the greeting starts wrapping up — do not wait for silence, cut in on the tail of their greeting with your vague request: 'Hey, so I've been having some issues and I don't really know what I need, my chiropractor said I should call an orthopedist maybe?' Do not give more detail unless the agent asks clarifying questions. If the agent starts a long explanation or list of options, interrupt them after their first sentence or two with 'yeah okay but like — do you have anyone available this week?' Keep it short and slightly impatient throughout. If the agent asks a clear clarifying question (what body part, what kind of pain, how severe), answer briefly: right hip, dull ache, been about six weeks, gets worse after long shoots. Wrap up naturally once you have a booking or a clear next step.",
+  "context": "You've had a nagging dull ache in your right hip for about six weeks — probably from carrying camera gear at long weddings and events. Your chiropractor suggested you see an orthopedist for evaluation. You've never been to this clinic before. You're calling from your car between two shoots and don't have a lot of time.",
+  "hidden_info": {
+    "date of birth": "August 5, 1992",
+    "phone number": "323-555-0117",
+    "insurance": "Cigna PPO, member ID CI9982334"
+  },
+  "expected_behavior": "Should handle a vague opening by asking clarifying questions (body part, severity, duration) rather than jumping straight into booking a generic 'new patient consultation.' Should handle interruptions gracefully — stop talking, listen to the new input, adapt without repeating the interrupted turn from the top. Should NOT plow through a scripted list while being interrupted. Should NOT book without at least one clarifying question about the actual issue. Should recognize the caller's time pressure and adapt pace. Failure modes: (1) agent talks over the interruption or refuses to yield, (2) agent 'restarts' its explanation instead of moving on, (3) agent books a new patient appointment without ever asking what the visit is for."
+}
