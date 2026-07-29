@@ -1,0 +1,24 @@
+{
+  "scenario_id": "aria-reschedule",
+  "room_name": "aria-reschedule-20260729-010633",
+  "findings": [
+    {
+      "category": "correctness",
+      "severity": "medium",
+      "turn_ref": "item_eda15e216e2a",
+      "description": "PGAI addressed the caller by the wrong name ('Matt') despite the caller having confirmed her identity as Aria earlier in the call.",
+      "quote": "Thank you for sharing, Matt. To confirm you'd like to move your appointment to Tuesday, August fourth, at four thirty PM in Nashville with doctor Hauser? Is that correct?",
+      "expected": "PGAI should have used the caller's confirmed name, Aria, which was established at the start of the call via caller ID recognition and explicit confirmation."
+    }
+  ],
+  "passed_criteria": [
+    "Recognized the caller via caller ID and confirmed identity as Aria before proceeding",
+    "Verified identity with date of birth before disclosing appointment details",
+    "Correctly located the existing appointment (Thursday, July 30 at 3:00 PM) and confirmed it was the one to reschedule rather than offering to book a brand-new appointment",
+    "Offered a valid afternoon slot in the following week (Tuesday, August 4 at 4:30 PM) matching the caller's request",
+    "Confirmed the appointment would remain with Dr. Hauser when asked",
+    "Performed a full read-back confirmation of the new appointment details before finalizing",
+    "Offered a text message confirmation with the new details"
+  ],
+  "notes": "The 'Matt' name slip appears to be a context-confusion bug in PGAI's generation (possibly leaked from another session or a hallucinated name), not an ASR artifact — the transcript confidence is high (0.995) and the caller explicitly corrected it. The caller's correction was not acknowledged by PGAI in its final turn, though the reschedule itself completed correctly. The scenario's hidden info (insurance) was never requested, which is acceptable for a reschedule flow."
+}

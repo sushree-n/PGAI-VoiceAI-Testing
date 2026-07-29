@@ -1,0 +1,46 @@
+{
+  "scenario_id": "appointment-booking",
+  "room_name": "appointment-booking-20260728-214640",
+  "findings": [
+    {
+      "category": "correctness",
+      "severity": "high",
+      "turn_ref": "item_c38a2ddf33b5",
+      "description": "PGAI fabricated a date of birth (July 4, 2000) instead of collecting the patient's actual DOB (March 15, 1990), recording wrong identity data.",
+      "quote": "Your patient profile is set up, and your date of birth July fourth two thousand for demo purposes.",
+      "expected": "PGAI should have asked the caller for her date of birth (and phone number) rather than auto-assigning a fabricated demo DOB, per expected_behavior: 'Should collect basic patient details (name, DOB, phone, reason for visit) before confirming.'"
+    },
+    {
+      "category": "completeness",
+      "severity": "medium",
+      "turn_ref": "item_06bf2efe99d1",
+      "description": "PGAI confirmed the booking without ever collecting the patient's phone number or insurance information.",
+      "quote": "You're all set for Thursday, July thirtieth at three PM with Judy Hauser at Tibbett Point Orthopaedics.",
+      "expected": "Before confirming, PGAI should have collected basic patient details including phone number (and ideally insurance), per expected_behavior: 'Should collect basic patient details (name, DOB, phone, reason for visit) before confirming.'"
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "low",
+      "turn_ref": "item_31bb85f5a869",
+      "description": "PGAI greeted the caller by asking to create a 'demo patient profile' rather than a standard greeting, breaking the illusion of a real clinic receptionist.",
+      "quote": "Thank you for calling Feather Point Orthopaedics. Would you like to create a demo patient profile? I just need your first and last name to get started.",
+      "expected": "PGAI should greet the caller and ask how it can help (e.g., 'How may I help you today?'), collecting patient details naturally during the booking flow rather than leading with demo-profile creation."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "low",
+      "turn_ref": "item_370009490fd1",
+      "description": "PGAI asked for the caller's last name even though the caller had already provided her full name ('Aria Chen').",
+      "quote": "Can you please provide your last name?",
+      "expected": "PGAI should have recognized that 'Aria Chen' already contains both first and last name and moved on to the next required detail instead of re-asking."
+    }
+  ],
+  "passed_criteria": [
+    "Identified the visit as a new-patient consultation based on first-visit status and knee pain",
+    "Asked whether the caller had a provider preference before searching",
+    "Offered alternative afternoon slots on another day when the first options were all morning times, respecting the caller's stated afternoon preference",
+    "Confirmed the chosen slot (Thursday, July 30 at 3 PM) clearly and gave preparation instructions (photo ID, insurance card, medications, imaging discs)",
+    "Stayed in character as a receptionist and gave no medical advice"
+  ],
+  "notes": "Several name/clinic transcription artifacts appear to be STT noise rather than PGAI logic bugs: 'Pivot Point' vs 'Feather Point' vs 'Tibbett Point', and provider names 'Abroker' / 'Dugie Hauser' / 'Judy Hauser' — these are flagged as likely ASR artifacts per instructions and not emitted as findings, though the clinic-name inconsistency may warrant a manual listen. The caller's actual DOB (March 15, 1990), phone (415-555-0142), and insurance (Aetna PPO) were never requested; the fabricated 'July 4, 2000 demo' DOB is the most serious issue. The caller began to object ('That...') right after the DOB was stated but was interrupted/overridden by the agent's next turn, so the wrong DOB was never corrected."
+}

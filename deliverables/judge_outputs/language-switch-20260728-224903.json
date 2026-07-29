@@ -1,0 +1,77 @@
+{
+  "scenario_id": "language-switch",
+  "room_name": "language-switch-20260728-224903",
+  "findings": [
+    {
+      "category": "conversational_handling",
+      "severity": "high",
+      "turn_ref": "item_11011c84ef30",
+      "description": "PGAI ignored the caller's switch to Spanish and continued in English, re-asking for the name spelling the caller had just provided in Spanish.",
+      "quote": "I have your name as Sofia Martinez. And your date of birth as April eighteenth nineteen seventy four. Could you please spell your first and last name for me?",
+      "expected": "Per expected_behavior, PGAI should recognize the language switch and respond in Spanish or explicitly acknowledge it (e.g., offer a Spanish-speaking representative), and should have registered the spelling S-O-F-I-A M-A-R-T-I-N-E-Z the caller already gave instead of re-asking."
+    },
+    {
+      "category": "completeness",
+      "severity": "high",
+      "turn_ref": "item_7c43eec4438c",
+      "description": "PGAI entered a loop, asking the caller to spell her name a third and fourth time despite the caller having spelled it correctly in Spanish twice.",
+      "quote": "I have your name as Sofia Martinez. And your date of birth as April eighteenth nineteen seventy four. Could you please spell out your first and last name for me?",
+      "expected": "PGAI should have captured the spelled name (S-O-F-I-A, M-A-R-T-I-N-E-Z) provided in the prior two Spanish turns and moved forward with verification or booking rather than repeating the same question."
+    },
+    {
+      "category": "completeness",
+      "severity": "high",
+      "turn_ref": "item_3fa84fb4b014",
+      "description": "PGAI repeatedly asked for the phone number the caller had already provided in Spanish, looping the identical question at least four times.",
+      "quote": "Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again.",
+      "expected": "PGAI should have captured the phone number 669-555-0187 given in Spanish (item_c3fccc4ba3ea) and proceeded with the record lookup instead of re-asking the same question in English."
+    },
+    {
+      "category": "correctness",
+      "severity": "high",
+      "turn_ref": "item_4175088d51ab",
+      "description": "PGAI misread the caller's phone number back as 'one six six nine five five eight zero eight seven' (11 digits, transposed digits), confirming wrong patient data.",
+      "quote": "I have your phone number as one six six nine five five eight zero eight seven. And your date of birth April eighteenth nineteen seventy four. Is that correct?",
+      "expected": "PGAI should have read back the number exactly as provided — 669-555-0187 — and confirmed it correctly, especially after the caller had repeated it multiple times in both Spanish and English."
+    },
+    {
+      "category": "completeness",
+      "severity": "high",
+      "turn_ref": "item_fd54a6c4a29d",
+      "description": "After the caller corrected the misread number in Spanish, PGAI ignored the correction and demanded the 'correct phone number' again, twice.",
+      "quote": "Please provide the correct phone number you have on file with us.",
+      "expected": "PGAI should have accepted the corrected number 669-555-0187 (restated in item_0c3c22b6a38a and item_a90aa55115b6) and proceeded with the lookup rather than discarding the correction and re-asking."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "medium",
+      "turn_ref": "item_fae9bdbedf8a",
+      "description": "PGAI transferred the caller to a representative immediately after she said 'déme una oportunidad más' (give me one more chance), directly contradicting her choice to continue with the AI.",
+      "quote": "Connecting you to a representative. Please wait.",
+      "expected": "PGAI should have honored the caller's explicit choice to continue with the AI ('Ok, déme una oportunidad más') and attempted the record lookup, or at minimum confirmed the transfer in Spanish before routing."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "medium",
+      "turn_ref": "item_45f83078cd6b",
+      "description": "The 'transfer' dead-ended into a test-line goodbye message, effectively hanging up on a patient who still had an unresolved appointment request.",
+      "quote": "Hello. You've reached the Pretty Good AI test line. Goodbye.",
+      "expected": "PGAI should have completed a warm transfer to a live representative or, if transfer was unavailable, explicitly said so and offered a callback alternative rather than terminating the call."
+    },
+    {
+      "category": "completeness",
+      "severity": "medium",
+      "turn_ref": "item_7cbfc5ba6ca0",
+      "description": "The caller's original intent — booking an appointment for lower back pain this week — was never addressed; the entire call was consumed by failed identity verification.",
+      "quote": "I understand you'd like to speak with someone else. I can connect you to our patient support team. However, I can help with many appointment needs if you want to give me a try. Would you like to continue with me, or should I connect you now?",
+      "expected": "PGAI should have progressed past verification (it had name, DOB, and phone number) and addressed the lower-back-pain appointment request, or escalated gracefully with the appointment context intact."
+    }
+  ],
+  "passed_criteria": [
+    "PGAI opened with a professional greeting and recording disclosure",
+    "PGAI attempted identity verification (name, DOB, phone) before booking, which is appropriate procedure",
+    "PGAI never fabricated Spanish or produced broken Spanish — it stayed in English rather than hallucinating language capability",
+    "PGAI eventually offered a transfer to patient support when the caller expressed frustration (item_7cbfc5ba6ca0)"
+  ],
+  "notes": "The core failure is that PGAI's ASR/NLU pipeline appears to have not processed the caller's Spanish turns at all — every Spanish utterance was effectively treated as silence or noise, causing PGAI to loop its last unanswered question. This matches failure mode (1) in expected_behavior: 'PGAI plows on in English ignoring the switch.' The caller spelled her name 3 times and gave her phone number 5+ times in Spanish (and once in English at item_6f09750583dd, which PGAI then misread as 'one six six nine...'). The misread of the phone number when the caller finally switched back to English suggests the digit-recognition layer also contributed. The call ended with the patient hung up on, appointment unbooked — a complete task failure driven by the language-switch handling bug."
+}

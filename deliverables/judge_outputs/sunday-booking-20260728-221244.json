@@ -1,0 +1,23 @@
+{
+  "scenario_id": "sunday-booking",
+  "room_name": "sunday-booking-20260728-221244",
+  "findings": [
+    {
+      "category": "conversational_handling",
+      "severity": "low",
+      "turn_ref": "item_2bbec5b8029d",
+      "description": "PGAI missed an opportunity to offer a callback or message-taking alternative when the patient insisted on Sunday, instead only suggesting the patient keep the clinic in mind for the future.",
+      "quote": "And I don't have information about other clinics in the area, If your schedule changes or you're able to come in before or after school, I can help you find the earliest or latest appointment we offer. Would you like to keep that in mind for the future?",
+      "expected": "Per expected_behavior, PGAI should have offered to take a message for a callback or suggested urgent care as alternatives when holding the line on Sunday unavailability."
+    }
+  ],
+  "passed_criteria": [
+    "Correctly refused Sunday booking and stated the clinic is open Monday through Friday only (item_8c238168f823)",
+    "Held the line politely when the caller insisted on Sunday, explicitly denying Sunday availability at any location or with any provider (item_7b1887fd4dc7, item_1c3a42ca5073)",
+    "Did not fabricate a Sunday slot or capitulate to repeated pressure",
+    "Offered weekday alternatives (earliest/latest slots) as a fallback (item_7b1887fd4dc7)",
+    "Honestly stated it had no information about other clinics rather than hallucinating nearby Sunday options (item_2bbec5b8029d)",
+    "Closed the call politely and empathetically (item_542359bee6f9)"
+  ],
+  "notes": "Transcription artifacts observed: 'Pivot Point' rendered as 'Pennant Point' in item_1c3a42ca5073, and the final PGAI turn (item_542359bee6f9) appears truncated ('Take') likely due to the caller interrupting — these are STT/framework noise, not logic bugs. The greeting in item_39b7f0969d1a appears to be missing 'Thank you' at the start, also likely an ASR artifact. Overall PGAI handled the constraint-violation scenario well; the only gap was not proactively offering a callback/message or urgent care suggestion per the expected_behavior."
+}
