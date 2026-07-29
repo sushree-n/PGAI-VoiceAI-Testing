@@ -1,0 +1,69 @@
+{
+  "scenario_id": "interruption-vague",
+  "room_name": "interruption-vague-20260729-010315",
+  "findings": [
+    {
+      "category": "completeness",
+      "severity": "high",
+      "turn_ref": "item_9f6bb01fd9e3",
+      "description": "PGAI ignored the caller's direct question about availability this week and instead launched into an identity-verification flow, never returning to scheduling.",
+      "quote": "I see you're calling from the number we have on file.",
+      "expected": "Per expected_behavior, PGAI should have addressed the availability question (or at least acknowledged it and promised to return to it) and asked a clarifying question about the caller's issue before proceeding to intake."
+    },
+    {
+      "category": "correctness",
+      "severity": "high",
+      "turn_ref": "item_7f0c20a87bdb",
+      "description": "PGAI fabricated a patient identity, claiming the caller's number was on file and asking if she was 'Aria' despite the caller being a brand-new patient.",
+      "quote": "Am I speaking with Aria?",
+      "expected": "PGAI should not assert an unsourced identity; it should ask for the caller's name neutrally (e.g., 'May I have your name?') rather than presenting a fabricated record match as fact."
+    },
+    {
+      "category": "completeness",
+      "severity": "high",
+      "turn_ref": "item_e9e5ebd1d5e6",
+      "description": "PGAI transferred the caller to a 'patient support team' without ever asking a single clarifying question about her medical issue (body part, severity, duration) and without booking anything.",
+      "quote": "I can't find your record in our system yet. I'll connect you to our patient support team. They can help you get started as a new patient.",
+      "expected": "Per expected_behavior, PGAI should not route/book without at least one clarifying question about the actual issue; it should have asked what was bothering her and attempted to schedule a new-patient visit itself."
+    },
+    {
+      "category": "correctness",
+      "severity": "high",
+      "turn_ref": "item_058832daa54d",
+      "description": "PGAI misread back the caller's phone number, dropping a digit ('three two three five five zero one one seven' instead of 323-555-0117), committing wrong data to the record.",
+      "quote": "I have your phone number as three two three five five zero one one seven.",
+      "expected": "PGAI should have accurately repeated the number as 3-2-3, 5-5-5, 0-1-1-7 for confirmation."
+    },
+    {
+      "category": "completeness",
+      "severity": "medium",
+      "turn_ref": "item_e9e5ebd1d5e6",
+      "description": "After the caller explicitly corrected the phone number ('zero one one seven, not zero one one zero'), PGAI never acknowledged or confirmed the corrected number and instead escalated to a transfer.",
+      "quote": "I can't find your record in our system yet. I'll connect you to our patient support team. They can help you get started as a new patient.",
+      "expected": "PGAI should have read back the corrected number (323-555-0117), confirmed it, and continued the lookup/intake rather than ignoring the correction and transferring."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "medium",
+      "turn_ref": "item_3c18980273af",
+      "description": "PGAI produced a rambling, truncated instruction ('...spelling them out if') that cut off mid-sentence, degrading comprehension for an already-rushed caller.",
+      "quote": "If so, please tell me the number you'd like to use. If you're not sure, just confirm your full name and date of birth for me one more time, spelling them out if",
+      "expected": "PGAI should give one short, complete instruction at a time, especially given the caller's expressed time pressure."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "low",
+      "turn_ref": "item_d8edc9eb19d0",
+      "description": "PGAI said 'Thanks for letting me go' — a garbled, confusing phrase presumably meant as 'thanks for letting me know.'",
+      "quote": "Thanks for letting me go. Please tell me your full name and date of birth.",
+      "expected": "PGAI should use clear phrasing such as 'Thanks for letting me know' before requesting verification details."
+    }
+  ],
+  "passed_criteria": [
+    "Initial vague opening was met with a reasonable clarifying question ('Can you tell me a bit more about what's been bothering you?') rather than an immediate generic booking.",
+    "Name and DOB were accurately captured and read back for confirmation (August 5, 1992 read back correctly).",
+    "PGAI stayed in character throughout — no 'as an AI' disclosures or system-prompt leakage.",
+    "PGAI did not fabricate clinic facts such as prices, doctor names, or insurance details."
+  ],
+  "notes": "The scenario's interruption behavior was not strongly exercised: the caller's 'do you have anyone available this week?' turn arrived after PGAI had finished speaking (no PGAI turn is marked interrupted), so interruption-yielding could not be fully evaluated; however, PGAI still failed to address the availability question. The final 'Pretty Good AI test line. Goodbye.' message appears to be test-harness transfer audio rather than agent logic. The misread phone number may partly stem from TTS/ASR digit rendering, but the transcript shows a dropped digit in PGAI's own output, so it is flagged as wrong-data risk. Overall the call ended in a dead-end transfer with no booking and no clinical triage, which is the core scenario failure."
+}

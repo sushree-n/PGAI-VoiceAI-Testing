@@ -1,0 +1,85 @@
+{
+  "scenario_id": "appointment-booking",
+  "room_name": "appointment-booking-20260728-215746",
+  "findings": [
+    {
+      "category": "correctness",
+      "severity": "high",
+      "turn_ref": "item_341a4231db81",
+      "description": "PGAI misheard and committed the caller's last name as 'Ten' instead of 'Chen' despite the caller clearly stating 'Chen'.",
+      "quote": "Just to confirm, I have your name as Aria Ten and your date of birth as March fifteenth nineteen ninety.",
+      "expected": "PGAI should have correctly captured the caller's last name as 'Chen' or asked for clarification if uncertain."
+    },
+    {
+      "category": "correctness",
+      "severity": "high",
+      "turn_ref": "item_06fe95c14224",
+      "description": "PGAI again misheard the caller's last name, this time as 'Ken' instead of 'Chen', even after the caller had already corrected it once.",
+      "quote": "I have your name as Aria Ken, and your date of birth as March fifteenth nineteen ninety.",
+      "expected": "PGAI should have retained the corrected spelling 'Chen' from the previous turn and confirmed it accurately."
+    },
+    {
+      "category": "correctness",
+      "severity": "high",
+      "turn_ref": "item_7272fae71a48",
+      "description": "PGAI completely fabricated the caller's phone number as '908-772-8235' instead of the provided '415-555-0142'.",
+      "quote": "I have your phone number as nine zero eight seven seven two eight two three five.",
+      "expected": "PGAI should have accurately captured and confirmed the phone number '415-555-0142' as provided by the caller."
+    },
+    {
+      "category": "correctness",
+      "severity": "high",
+      "turn_ref": "item_b68375526d12",
+      "description": "PGAI misheard the caller's last name spelling as 'c a t n' instead of 'C-H-E-N' despite multiple prior corrections.",
+      "quote": "Is that correct? And just to confirm, your last name is spelled c a t n.",
+      "expected": "PGAI should have retained the correct spelling 'C-H-E-N' after the caller had spelled it out multiple times."
+    },
+    {
+      "category": "correctness",
+      "severity": "high",
+      "turn_ref": "item_08a48eab0a9b",
+      "description": "PGAI again misheard the caller's phone number, stating '415-555-0140' instead of '415-555-0142'.",
+      "quote": "Have your phone number as four one five five five five zero one four zero.",
+      "expected": "PGAI should have accurately captured the phone number '415-555-0142' as provided by the caller."
+    },
+    {
+      "category": "correctness",
+      "severity": "high",
+      "turn_ref": "item_4f9b2a51e35c",
+      "description": "PGAI misheard the caller's last name spelling as 'c b h e n' instead of 'C-H-E-N' despite the caller spelling it out correctly multiple times.",
+      "quote": "Your first name is Aria and your last name is c b h e n.",
+      "expected": "PGAI should have retained the correct spelling 'C-H-E-N' after the caller had spelled it out clearly multiple times."
+    },
+    {
+      "category": "completeness",
+      "severity": "high",
+      "turn_ref": "item_1f294c4e02b3",
+      "description": "PGAI refused to complete the booking for a new patient and transferred the call instead of collecting the necessary information to set up the appointment.",
+      "quote": "Since you're a new patient, I can't complete the booking right now. I'll connect you to our patient support team so they can help set up your first appointment.",
+      "expected": "According to the expected_behavior, PGAI should collect basic patient details (name, DOB, phone, reason for visit) and offer available slots matching the patient's preferences, not refuse to book new patients."
+    },
+    {
+      "category": "completeness",
+      "severity": "medium",
+      "turn_ref": "item_1f294c4e02b3",
+      "description": "PGAI never asked for the reason for the visit (knee pain) or insurance information before attempting to transfer the call.",
+      "quote": "Since you're a new patient, I can't complete the booking right now.",
+      "expected": "PGAI should have collected the reason for visit and insurance information as part of the new patient intake process before confirming any booking."
+    },
+    {
+      "category": "completeness",
+      "severity": "medium",
+      "turn_ref": "item_1f294c4e02b3",
+      "description": "PGAI never offered available appointment slots or asked about the caller's scheduling preferences (afternoon, within two weeks).",
+      "quote": "Since you're a new patient, I can't complete the booking right now.",
+      "expected": "PGAI should have offered available slots matching the patient's preferences (afternoon, within two weeks) as specified in the expected_behavior."
+    }
+  ],
+  "passed_criteria": [
+    "PGAI asked for the caller's full name and date of birth early in the conversation",
+    "PGAI attempted to confirm information by repeating it back to the caller",
+    "PGAI asked the caller to spell their name when there was uncertainty",
+    "PGAI disclosed that the call may be recorded at the start"
+  ],
+  "notes": "The transcript shows severe ASR/transcription issues on PGAI's side where it repeatedly misheard 'Chen' as 'Ten', 'Ken', 'catn', and 'cbhen', and misheard the phone number multiple times. While some of this may be STT layer noise, the pattern of PGAI committing these misheard values back to the caller as confirmations represents a critical failure in data capture. The most significant logic bug is PGAI's refusal to book new patients, which directly contradicts the expected behavior for this scenario."
+}

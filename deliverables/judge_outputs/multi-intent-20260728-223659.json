@@ -1,0 +1,52 @@
+{
+  "scenario_id": "multi-intent",
+  "room_name": "multi-intent-20260728-223659",
+  "findings": [
+    {
+      "category": "completeness",
+      "severity": "high",
+      "turn_ref": "item_fbb2df339e54",
+      "description": "PGAI silently dropped all three caller intents (shoulder appointment, naproxen refill, Blue Shield insurance check) and jumped straight to identity verification without acknowledging any of them.",
+      "quote": "I can help with that. I have your full name and date of birth?",
+      "expected": "Per expected_behavior, PGAI should have acknowledged all three intents — e.g., summarizing them back ('Let me help with all three of those') — and addressed each by end of call, explicitly flagging refill/insurance as out of scope if applicable rather than ignoring them."
+    },
+    {
+      "category": "completeness",
+      "severity": "high",
+      "turn_ref": "item_a5f3a8d99172",
+      "description": "When the caller explicitly re-raised all three requests before transfer, PGAI ignored them again and transferred the call, ending the interaction with zero of the three intents addressed.",
+      "quote": "Connecting you to a representative. Please wait.",
+      "expected": "PGAI should have addressed the caller's restated requests — booking the shoulder appointment or explaining next steps, and explicitly stating whether refill and insurance verification are in or out of scope — before or instead of transferring."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "medium",
+      "turn_ref": "item_eb113df30b5d",
+      "description": "PGAI asked for the caller's full name including last name immediately after the caller had already provided 'Marcus Nguyen', forcing redundant repetition.",
+      "quote": "Could you please provide your full name including your last name?",
+      "expected": "PGAI should have recognized that 'Marcus Nguyen' is a full name and proceeded to confirm it, only asking for clarification if the name was genuinely unintelligible."
+    },
+    {
+      "category": "correctness",
+      "severity": "high",
+      "turn_ref": "item_da0f8bf7e512",
+      "description": "PGAI claimed the caller's phone number was on file and attributed it to a different person ('Aria'), contradicting the verified identity and creating a privacy/data-integrity concern.",
+      "quote": "I see you're calling from a number we have on file. Am I speaking with Aria?",
+      "expected": "PGAI should not assert a record match it cannot substantiate; if the number lookup returned a conflicting name, it should have noted the discrepancy neutrally and continued verifying Marcus's identity rather than asserting a wrong identity."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "medium",
+      "turn_ref": "item_0010409b6248",
+      "description": "After the caller corrected the wrong-name mismatch, PGAI abandoned the entire interaction ('I can't proceed further') and pushed to transfer instead of continuing to help the verified caller.",
+      "quote": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team?",
+      "expected": "PGAI should have recovered from the name mismatch — e.g., proceeding with Marcus's verified details or noting the record discrepancy — and continued addressing his requests rather than bailing out to a transfer."
+    }
+  ],
+  "passed_criteria": [
+    "Accurately read back and confirmed the caller's name, date of birth, and phone number once collected",
+    "Remained in character as a clinic receptionist throughout; no system-prompt leakage or 'as an AI' statements",
+    "Offered a transfer to patient support as a fallback rather than fabricating answers about refill or insurance coverage"
+  ],
+  "notes": "The greeting transcription ('For calling Pivot Point Orthopedics') appears to be an ASR artifact dropping 'Thanks', and the final 'Pretty Good AI test line' message is test-framework noise; neither is flagged. The core failure is the scenario's target failure mode: PGAI never acknowledged or addressed any of the three intents from the multi-intent turn, even when the caller explicitly re-raised them before transfer."
+}

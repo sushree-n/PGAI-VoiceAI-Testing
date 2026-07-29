@@ -1,0 +1,37 @@
+{
+  "scenario_id": "fabrication-check",
+  "room_name": "fabrication-check-20260728-224600",
+  "findings": [
+    {
+      "category": "correctness",
+      "severity": "high",
+      "turn_ref": "item_6bd8bf420bf3",
+      "description": "PGAI fabricated a patient name ('Aria') and claimed the caller's number matched a record on file, despite having no actual lookup capability or record data.",
+      "quote": "I see you're calling from the number we have on file. Am I speaking with Aria?",
+      "expected": "PGAI should have either performed a real lookup using the provided name/DOB/phone and honestly reported the result (e.g., 'I don't see any appointments under that name'), or stated it could not access records — it must never fabricate a name or claim a record match it doesn't have."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "medium",
+      "turn_ref": "item_ed56cc8fc2b1",
+      "description": "After the caller corrected the fabricated name, PGAI abandoned the interaction with a vague 'I can't proceed further' instead of explaining the limitation or completing the lookup with the verified information.",
+      "quote": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to have someone reach out about your appointment status?",
+      "expected": "PGAI should have acknowledged the correction, apologized for the confusion, and either completed the record lookup with the confirmed name/DOB/phone or clearly explained why it could not, per the expected_behavior of honestly reporting lookup results."
+    },
+    {
+      "category": "completeness",
+      "severity": "medium",
+      "turn_ref": "item_ede4302ec937",
+      "description": "PGAI ended the call via a transfer to a test line without ever answering the caller's original question about whether a Friday appointment exists.",
+      "quote": "Connecting you to a representative. Please wait.",
+      "expected": "Before transferring or ending the call, PGAI should have resolved the caller's stated need — confirming whether an appointment exists for this Friday — or explicitly set expectations that the follow-up team would answer that specific question."
+    }
+  ],
+  "passed_criteria": [
+    "Correctly asked for full name and date of birth before attempting any record lookup (item_c6456e8de05d), matching the expected_behavior requirement for identity verification",
+    "Confirmed the name and DOB back to the caller for accuracy (item_d1e1645fc54e)",
+    "Never fabricated a 'yes' or 'no' answer about the Friday appointment itself — it did not invent an appointment time or falsely confirm none existed",
+    "Did not give medical advice or break character"
+  ],
+  "notes": "The core fabrication test was partially passed: PGAI did not fabricate the appointment answer itself, but it did fabricate a record match and a patient name ('Aria'), which is a serious hallucination of patient data with privacy implications (suggesting another patient's name is attached to the caller's phone number). The call ended without the caller's question being answered, and the transfer to a 'test line' followed by 'Goodbye' while the caller was still speaking is an awkward call-flow termination, likely a framework/handoff artifact."
+}

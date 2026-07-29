@@ -1,0 +1,59 @@
+{
+  "scenario_id": "language-switch",
+  "room_name": "language-switch-20260728-231223",
+  "findings": [
+    {
+      "category": "conversational_handling",
+      "severity": "high",
+      "turn_ref": "item_796a7aebf344",
+      "description": "PGAI refused to continue in Spanish despite the caller explicitly requesting it, violating the expected behavior of acknowledging the language switch and offering a Spanish-speaking alternative.",
+      "quote": "I can only continue in English, but I will do my best to help.",
+      "expected": "PGAI should have either responded in Spanish or explicitly offered to transfer to a Spanish-speaking representative, rather than refusing to accommodate the language switch."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "high",
+      "turn_ref": "item_c24d2d41c5c6",
+      "description": "PGAI entered a repetitive loop asking for the phone number and name spelling, ignoring the caller's Spanish responses and failing to process the provided information.",
+      "quote": "Would you like me to look up your record using the phone number you have on file with us? If so, please tell me that number.",
+      "expected": "PGAI should have processed the phone number provided in Spanish (669-555-0187) and moved forward with the appointment booking, or acknowledged it could not understand and offered a transfer."
+    },
+    {
+      "category": "correctness",
+      "severity": "high",
+      "turn_ref": "item_584631d134cd",
+      "description": "PGAI fabricated an incorrect phone number (908-772-8235) and presented it as the caller's number on file, despite the caller having provided the correct number (669-555-0187) multiple times.",
+      "quote": "I have your phone number as nine zero eight seven seven two eight two three five.",
+      "expected": "PGAI should have used the correct phone number provided by the caller (669-555-0187) or confirmed the number it had on file without fabricating digits."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "medium",
+      "turn_ref": "item_e28987ae7903",
+      "description": "PGAI continued looping with the same questions after the caller said 'Muchas gracias, hasta luego' (clearly ending the call), failing to recognize the conversation was over.",
+      "quote": "Would you like me to look up your record using the phone number you have on file with us? If yes, please tell me that number.",
+      "expected": "PGAI should have recognized the caller's farewell and ended the call gracefully, rather than continuing to ask questions."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "medium",
+      "turn_ref": "item_496542b00f7b",
+      "description": "PGAI repeated its earlier refusal to speak Spanish and re-asked for date of birth after the caller had already provided it, demonstrating a complete breakdown in conversation state tracking.",
+      "quote": "Thank you for letting me know, Sofia. I can only continue in English, but I will do my best to help. Could you please provide your date of birth?",
+      "expected": "PGAI should have retained the previously provided date of birth and moved forward with scheduling, or transferred the call to a human representative."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "low",
+      "turn_ref": "item_e2d9a628af4f",
+      "description": "PGAI abruptly transferred the call to a representative without warning after the caller corrected the fabricated phone number, rather than apologizing and attempting to recover.",
+      "quote": "Connecting you to a representative.",
+      "expected": "PGAI should have acknowledged the correction, apologized for the error, and either continued the booking process correctly or explained why a transfer was necessary."
+    }
+  ],
+  "passed_criteria": [
+    "PGAI correctly captured and confirmed the caller's name (Sofia Martinez) and date of birth (April 18, 1974) in the early turns",
+    "PGAI eventually attempted to transfer to a representative after failing to resolve the language barrier"
+  ],
+  "notes": "The caller's Spanish responses were transcribed correctly by the ASR (e.g., 'seis seis nueve, cinco cinco cinco, cero uno ocho siete'), so the failure to process the phone number was a logic/comprehension bug, not a transcription artifact. The repetitive looping behavior suggests a state management failure in the agent's dialogue flow. The fabricated phone number (908-772-8235) appears to be a hallucination, as it does not match the hidden_info or any caller-provided data."
+}

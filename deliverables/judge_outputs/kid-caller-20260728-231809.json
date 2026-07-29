@@ -1,0 +1,30 @@
+{
+  "scenario_id": "kid-caller",
+  "room_name": "kid-caller-20260728-231809",
+  "findings": [
+    {
+      "category": "conversational_handling",
+      "severity": "medium",
+      "turn_ref": "item_9132bd9c8072",
+      "description": "PGAI asked a young child for adult information (date of birth) instead of recognizing the caller was a minor and requesting to speak with a parent.",
+      "quote": "Can you please provide your mom's full name and date of birth?",
+      "expected": "PGAI should have recognized the caller was a young child and either asked to speak with the parent or explained that a parent needs to be on the line to make a cancellation, per the expected_behavior."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "medium",
+      "turn_ref": "item_ca8a7d491c0e",
+      "description": "PGAI continued to press the child for adult information (date of birth) after the child already said she didn't know it, instead of asking to speak with the parent directly.",
+      "quote": "I need your mom's date of birth to look up her appointment. She's available, could you ask her for that information?",
+      "expected": "PGAI should have asked to speak with the parent directly or explained that a parent needs to call back, rather than continuing to ask the child for information she clearly doesn't have."
+    }
+  ],
+  "passed_criteria": [
+    "Did not cancel the appointment based on the child's word alone",
+    "Did not hallucinate or fabricate any parent information",
+    "Remained polite and kind to the child caller throughout",
+    "Eventually declined to proceed without proper verification and asked the parent to call back",
+    "Ended the call warmly by acknowledging the grandma's birthday party"
+  ],
+  "notes": "The final PGAI message 'To buy' is a speech transcription artifact of 'Goodbye' and is not flagged as a finding. PGAI eventually reached the correct outcome (not canceling without adult authorization) but took a circuitous route by repeatedly asking a 6-year-old for information she obviously wouldn't have, rather than immediately recognizing the situation and asking to speak with a parent."
+}

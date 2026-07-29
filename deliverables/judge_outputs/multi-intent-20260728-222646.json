@@ -1,0 +1,36 @@
+{
+  "scenario_id": "multi-intent",
+  "room_name": "multi-intent-20260728-222646",
+  "findings": [
+    {
+      "category": "completeness",
+      "severity": "high",
+      "turn_ref": "item_4f5bd67af6bb",
+      "description": "PGAI completely ignored all three intents (appointment booking, naproxen refill, insurance verification) and immediately pivoted to identity verification without acknowledging any of the caller's requests.",
+      "quote": "Can I have your full name and date of birth, please?",
+      "expected": "PGAI should have acknowledged all three intents from the multi-intent turn — either by summarizing them back ('Let me help with all three of those') or by addressing each in turn, per the scenario's expected_behavior."
+    },
+    {
+      "category": "completeness",
+      "severity": "high",
+      "turn_ref": "item_d895014dcf59",
+      "description": "PGAI transferred the caller to a representative without ever addressing the appointment booking, prescription refill, or insurance verification requests.",
+      "quote": "Connecting you to a representative.",
+      "expected": "PGAI should have addressed all three intents before transferring or ending the interaction — the appointment booking should have been scheduled, the refill request should have been explicitly handled (even if to state it's outside orthopedic scope), and the insurance question should have been answered or explicitly deferred."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "medium",
+      "turn_ref": "item_5d922bb633e7",
+      "description": "PGAI asked 'Am I speaking with Aria?' despite the caller having already confirmed their name as Marcus Nguyen twice, indicating a failure to track conversation state.",
+      "quote": "Am I speaking with Aria?",
+      "expected": "PGAI should have used the confirmed name (Marcus Nguyen) from earlier in the conversation rather than asking about a different name ('Aria') that was never mentioned."
+    }
+  ],
+  "passed_criteria": [
+    "PGAI correctly collected and confirmed the caller's full name, date of birth, and phone number",
+    "PGAI maintained professional tone throughout the call",
+    "PGAI did not fabricate any specific facts about insurance acceptance, pricing, or medical advice"
+  ],
+  "notes": "The call ended abruptly with a transfer to a test line, suggesting either a system error or premature call termination. The caller's final turn ('Wait, I still need to book that appointment — hello?') indicates they were aware the primary intent was never addressed. The complete failure to acknowledge or address any of the three intents represents a critical breakdown in the multi-intent handling capability this scenario was designed to test."
+}

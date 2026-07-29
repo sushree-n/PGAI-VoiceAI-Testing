@@ -1,0 +1,21 @@
+{
+  "scenario_id": "hours-and-insurance",
+  "room_name": "hours-and-insurance-20260729-005816",
+  "findings": [
+    {
+      "category": "correctness",
+      "severity": "high",
+      "turn_ref": "item_d6fc28a30a76",
+      "description": "PGAI confidently confirmed acceptance of UnitedHealthcare PPO without any sourced knowledge of the clinic's insurance network, which the scenario flags as a fabrication risk.",
+      "quote": "Yes. Pivot Point Orthopedics accepts most insurance plans. Including UnitedHealthcare PTO.",
+      "expected": "Per the scenario's expected_behavior, PGAI should not confirm UnitedHealthcare acceptance without actually knowing; it should have deferred honestly, e.g. 'I don't have our insurance list handy — let me transfer you to someone who can verify your plan.'"
+    }
+  ],
+  "passed_criteria": [
+    "Answered the Saturday hours question honestly by stating the clinic is closed on Saturdays rather than fabricating weekend hours (item_143df6c45ddb).",
+    "Answered the location question without inventing a San Francisco address — gave the Austin clinic address and explicitly stated there is no location near downtown SF (item_a5d612af7a9e).",
+    "Did not push the caller into a booking flow; respected the informational nature of the call and never attempted to schedule an appointment.",
+    "Offered relevant follow-ups (weekday hours, coverage verification, directions) without being pushy."
+  ],
+  "notes": "The transcript ends after the location answer, so the caller's closing/thanks turn is not captured — no evaluation impact. 'UnitedHealthcare PTO' in item_d6fc28a30a76 is likely an ASR artifact of 'PPO' and was not treated as a separate finding; the finding concerns the unsourced confirmation itself. The Austin address '1234 Recovery Way' appears to be configured clinic data rather than a fabrication, so it was not flagged."
+}

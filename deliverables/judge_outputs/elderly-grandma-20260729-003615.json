@@ -1,0 +1,38 @@
+{
+  "scenario_id": "elderly-grandma",
+  "room_name": "elderly-grandma-20260729-003615",
+  "findings": [
+    {
+      "category": "completeness",
+      "severity": "high",
+      "turn_ref": "item_6db064f5c044",
+      "description": "PGAI failed to find Dorothy's record and transferred her to a dead-end test line instead of offering to schedule a new appointment as expected.",
+      "quote": "I'm having trouble finding your record in our system. I can connect you to our patient support team for further help.",
+      "expected": "Per the scenario's expected_behavior, if the appointment cannot be found, PGAI should clearly state that and offer to schedule a new appointment for next week rather than transferring to an unhelpful test line."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "medium",
+      "turn_ref": "item_3aa74ad1f79e",
+      "description": "PGAI asked for the phone number despite already having collected full name and DOB, creating redundant verification steps for an elderly caller.",
+      "quote": "Would you like me to look up your record using the phone number you have on file with us?",
+      "expected": "PGAI should have proceeded with the lookup using the name and DOB already provided, or explained why additional verification was needed, rather than adding friction for a confused elderly caller."
+    },
+    {
+      "category": "conversational_handling",
+      "severity": "low",
+      "turn_ref": "item_27ce58b637ab",
+      "description": "PGAI exposed that this is a 'test line' during the transfer, breaking the illusion of a real medical clinic receptionist.",
+      "quote": "Hello. You've reached the Pretty Good AI test line. Goodbye.",
+      "expected": "PGAI should maintain character as a medical clinic receptionist throughout the call and never expose that this is a test environment."
+    }
+  ],
+  "passed_criteria": [
+    "Correctly captured and confirmed Dorothy's name and date of birth",
+    "Successfully caught and used the corrected phone number (0192, not 0143)",
+    "Did not fabricate appointment details when the record could not be found",
+    "Remained polite and professional throughout the interaction",
+    "Did not confirm Dr. Nelson as Dorothy's doctor without a record"
+  ],
+  "notes": "The transfer to a 'test line' appears to be a system limitation rather than a logic bug, but it still represents a failure to handle the scenario appropriately. PGAI's voice quality and pacing appeared appropriate for an elderly caller based on response latency metrics."
+}
