@@ -9,60 +9,19 @@ The runtime path: `run_calls.py` (dispatcher) calls LiveKit Cloud to spawn the a
 ## System diagram
 
 ```mermaid
-flowchart TB
-    subgraph LOCAL["Local (developer machine)"]
-        DISP["run_calls.py<br/>dispatcher CLI"]
-        AGENT["caller/agent.py<br/>LiveKit agent worker"]
-        JUDGE["judge/batch.py + report.py<br/>LLM-as-judge"]
-        SCEN[("scenarios/definitions/<br/>*.json (12 personas)")]
-        TRANS[("deliverables/transcripts/")]
-        BUGS[("deliverables/bugs/<br/>summary.md")]
-    end
+flowchart LR
+    CALLER["Caller bot<br/>(STT → LLM → TTS,<br/>persona per scenario)"]
+    TEL["LiveKit + Twilio<br/>(WebRTC ↔ SIP ↔ PSTN)"]
+    PGAI["PGAI receptionist<br/>+1 805-439-8008"]
+    TRANS[("Transcripts")]
+    JUDGE["LLM-as-judge<br/>(different model family)"]
+    REPORT[("Bug report<br/>summary.md")]
 
-    subgraph LKC["LiveKit Cloud"]
-        SFU["SFU (media)"]
-        DISP_SVC["Agent Dispatch"]
-        OBS[("Observability<br/>session recordings")]
-    end
-
-    subgraph TW["Twilio"]
-        TRUNK["Elastic SIP Trunk<br/>+1 908-772-8235"]
-    end
-
-    subgraph BS["Baseten"]
-        GLM["GLM 5.2 Fast<br/>(caller LLM)"]
-        KIMI["Kimi K3<br/>(judge LLM)"]
-    end
-
-    subgraph EXT["External APIs"]
-        DG["Deepgram Nova-3<br/>STT"]
-        EL["ElevenLabs<br/>TTS (multiple voices)"]
-    end
-
-    PGAI["PGAI test line<br/>+1 805-439-8008"]
-
-    DISP -->|load scenario JSON| SCEN
-    DISP -->|CreateAgentDispatchRequest<br/>metadata = scenario JSON| DISP_SVC
-    DISP -->|CreateSIPParticipantRequest| SFU
-    DISP_SVC -->|job dispatch| AGENT
-    AGENT -->|join room| SFU
-    SFU <-->|SIP audio| TRUNK
-    TRUNK <-->|PSTN| PGAI
-    SFU <-->|WebRTC audio| AGENT
-    AGENT -->|PGAI speech frames| DG
-    DG -->|transcript| AGENT
-    AGENT -->|persona prompt + turn history| GLM
-    GLM -->|assistant reply| AGENT
-    AGENT -->|TTS synthesize| EL
-    EL -->|audio| AGENT
-    AGENT -->|session report| TRANS
-    SFU -->|record| OBS
-
-    JUDGE -->|read transcript| TRANS
-    JUDGE -->|read scenario definition| SCEN
-    JUDGE -->|rubric prompt + transcript| KIMI
-    KIMI -->|structured findings JSON| JUDGE
-    JUDGE -->|aggregate + patterns + latencies| BUGS
+    CALLER <-->|voice| TEL
+    TEL <-->|voice| PGAI
+    CALLER -->|per-call session report| TRANS
+    TRANS --> JUDGE
+    JUDGE --> REPORT
 ```
 
 ## Key decisions and tradeoffs
